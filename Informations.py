@@ -5,7 +5,7 @@ import inspect
 class Informations:
     """
     Diese Klasse dient dazu, Hinweise, die während der Ausführung einer Anwendung erfasst werden sollen, ...
-    <li> ... zentral zu gespeichern und für anschließende Aufrufe bereitzustellen. Diese Informationen können entsprechend weiterführender Anwendungsfälle angezeigt, gespeichert oder analysiert werden.
+    <li> ... zentral zu speichern und für anschließende Aufrufe bereitzustellen. Diese Informationen können entsprechend weiterführender Anwendungsfälle angezeigt, gespeichert oder analysiert werden.
     <li> ... über einheitliche und leicht zugängliche Funktionen direkt im Terminal auszugeben.
 
     Je nach Wahl der `Framework.Informations.Informations.Verbosity` werden die Informationen im Terminal ausgegeben.
