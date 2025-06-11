@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="pdoc 15.0.3"/>
+    <meta name="generator" content="pdoc 15.0.4"/>
     <title>MyFramework.Informations API documentation</title>
 
     <style>/*! * Bootstrap Reboot v5.0.0 (https://getbootstrap.com/) * Copyright 2011-2021 The Bootstrap Authors * Copyright 2011-2021 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE) * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md) */*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}hr{margin:1rem 0;color:inherit;background-color:currentColor;border:0;opacity:.25}hr:not([size]){height:1px}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2}h1{font-size:calc(1.375rem + 1.5vw)}@media (min-width:1200px){h1{font-size:2.5rem}}h2{font-size:calc(1.325rem + .9vw)}@media (min-width:1200px){h2{font-size:2rem}}h3{font-size:calc(1.3rem + .6vw)}@media (min-width:1200px){h3{font-size:1.75rem}}h4{font-size:calc(1.275rem + .3vw)}@media (min-width:1200px){h4{font-size:1.5rem}}h5{font-size:1.25rem}h6{font-size:1rem}p{margin-top:0;margin-bottom:1rem}abbr[data-bs-original-title],abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted;cursor:help;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}address{margin-bottom:1rem;font-style:normal;line-height:inherit}ol,ul{padding-left:2rem}dl,ol,ul{margin-top:0;margin-bottom:1rem}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}dt{font-weight:700}dd{margin-bottom:.5rem;margin-left:0}blockquote{margin:0 0 1rem}b,strong{font-weight:bolder}small{font-size:.875em}mark{padding:.2em;background-color:#fcf8e3}sub,sup{position:relative;font-size:.75em;line-height:0;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}a{color:#0d6efd;text-decoration:underline}a:hover{color:#0a58ca}a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}code,kbd,pre,samp{font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;font-size:1em;direction:ltr;unicode-bidi:bidi-override}pre{display:block;margin-top:0;margin-bottom:1rem;overflow:auto;font-size:.875em}pre code{font-size:inherit;color:inherit;word-break:normal}code{font-size:.875em;color:#d63384;word-wrap:break-word}a>code{color:inherit}kbd{padding:.2rem .4rem;font-size:.875em;color:#fff;background-color:#212529;border-radius:.2rem}kbd kbd{padding:0;font-size:1em;font-weight:700}figure{margin:0 0 1rem}img,svg{vertical-align:middle}table{caption-side:bottom;border-collapse:collapse}caption{padding-top:.5rem;padding-bottom:.5rem;color:#6c757d;text-align:left}th{text-align:inherit;text-align:-webkit-match-parent}tbody,td,tfoot,th,thead,tr{border-color:inherit;border-style:solid;border-width:0}label{display:inline-block}button{border-radius:0}button:focus:not(:focus-visible){outline:0}button,input,optgroup,select,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,select{text-transform:none}[role=button]{cursor:pointer}select{word-wrap:normal}select:disabled{opacity:1}[list]::-webkit-calendar-picker-indicator{display:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){cursor:pointer}::-moz-focus-inner{padding:0;border-style:none}textarea{resize:vertical}fieldset{min-width:0;padding:0;margin:0;border:0}legend{float:left;width:100%;padding:0;margin-bottom:.5rem;font-size:calc(1.275rem + .3vw);line-height:inherit}@media (min-width:1200px){legend{font-size:1.5rem}}legend+*{clear:left}::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-text,::-webkit-datetime-edit-year-field{padding:0}::-webkit-inner-spin-button{height:auto}[type=search]{outline-offset:-2px;-webkit-appearance:textfield}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-color-swatch-wrapper{padding:0}::file-selector-button{font:inherit}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}output{display:inline-block}iframe{border:0}summary{display:list-item;cursor:pointer}progress{vertical-align:baseline}[hidden]{display:none!important}</style>
@@ -119,402 +119,20 @@
 <a href="./../MyFramework.html">MyFramework</a><wbr>.Informations    </h1>
 
                 
-                        <input id="mod-Informations-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-
-                        <label class="view-source-button" for="mod-Informations-view-source"><span>View Source</span></label>
-
-                        <div class="pdoc-code codehilite"><pre><span></span><span id="L-1"><a href="#L-1"><span class="linenos">  1</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">enum</span><span class="w"> </span><span class="kn">import</span> <span class="n">Flag</span><span class="p">,</span> <span class="n">auto</span><span class="p">,</span> <span class="n">Enum</span>
-</span><span id="L-2"><a href="#L-2"><span class="linenos">  2</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">datetime</span>
-</span><span id="L-3"><a href="#L-3"><span class="linenos">  3</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">inspect</span>
-</span><span id="L-4"><a href="#L-4"><span class="linenos">  4</span></a>
-</span><span id="L-5"><a href="#L-5"><span class="linenos">  5</span></a><span class="k">class</span><span class="w"> </span><span class="nc">Informations</span><span class="p">:</span>
-</span><span id="L-6"><a href="#L-6"><span class="linenos">  6</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-7"><a href="#L-7"><span class="linenos">  7</span></a><span class="sd">    Diese Klasse dient dazu, Hinweise, die während der Ausführung einer Anwendung erfasst werden sollen, ...</span>
-</span><span id="L-8"><a href="#L-8"><span class="linenos">  8</span></a><span class="sd">    &lt;li&gt; ... zentral zu speichern und für anschließende Aufrufe bereitzustellen. Diese Informationen können entsprechend weiterführender Anwendungsfälle angezeigt, gespeichert oder analysiert werden.</span>
-</span><span id="L-9"><a href="#L-9"><span class="linenos">  9</span></a><span class="sd">    &lt;li&gt; ... über einheitliche und leicht zugängliche Funktionen direkt im Terminal auszugeben.</span>
-</span><span id="L-10"><a href="#L-10"><span class="linenos"> 10</span></a>
-</span><span id="L-11"><a href="#L-11"><span class="linenos"> 11</span></a><span class="sd">    Je nach Wahl der `Framework.Informations.Informations.Verbosity` werden die Informationen im Terminal ausgegeben.</span>
-</span><span id="L-12"><a href="#L-12"><span class="linenos"> 12</span></a>
-</span><span id="L-13"><a href="#L-13"><span class="linenos"> 13</span></a><span class="sd">    Je nachdem welcher der announce-Funktionen genutzt wird, werden die Informationen automatisch typisiert. (Beispielsweise `Framework.Informations.Informations.announceInfo`)</span>
-</span><span id="L-14"><a href="#L-14"><span class="linenos"> 14</span></a><span class="sd">    &quot;&quot;&quot;</span>
-</span><span id="L-15"><a href="#L-15"><span class="linenos"> 15</span></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Verbosity</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
-</span><span id="L-16"><a href="#L-16"><span class="linenos"> 16</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-17"><a href="#L-17"><span class="linenos"> 17</span></a><span class="sd">        Definiert, wie umfangreich Ausgaben gestaltet werden sollen.</span>
-</span><span id="L-18"><a href="#L-18"><span class="linenos"> 18</span></a><span class="sd">        &lt;li&gt; NoPrint: Keine Ausgabe</span>
-</span><span id="L-19"><a href="#L-19"><span class="linenos"> 19</span></a><span class="sd">        &lt;li&gt; PrintSimple: Ausgabe in einer Zeile</span>
-</span><span id="L-20"><a href="#L-20"><span class="linenos"> 20</span></a><span class="sd">        &lt;li&gt; PrintBulky: Ausgabe mit einer auffälligen Hervorhebung.</span>
-</span><span id="L-21"><a href="#L-21"><span class="linenos"> 21</span></a>
-</span><span id="L-22"><a href="#L-22"><span class="linenos"> 22</span></a><span class="sd">        (Siehe auch `Framework.Informations.Informations`)</span>
-</span><span id="L-23"><a href="#L-23"><span class="linenos"> 23</span></a><span class="sd">        &quot;&quot;&quot;</span>        
-</span><span id="L-24"><a href="#L-24"><span class="linenos"> 24</span></a>        <span class="n">NoPrint</span>             <span class="o">=</span>  <span class="mi">0</span>
-</span><span id="L-25"><a href="#L-25"><span class="linenos"> 25</span></a>        <span class="n">PrintSimple</span>         <span class="o">=</span>  <span class="mi">1</span>
-</span><span id="L-26"><a href="#L-26"><span class="linenos"> 26</span></a>        <span class="n">PrintBulky</span>          <span class="o">=</span>  <span class="mi">2</span>
-</span><span id="L-27"><a href="#L-27"><span class="linenos"> 27</span></a>
-</span><span id="L-28"><a href="#L-28"><span class="linenos"> 28</span></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Types</span><span class="p">(</span><span class="n">Flag</span><span class="p">):</span>
-</span><span id="L-29"><a href="#L-29"><span class="linenos"> 29</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-30"><a href="#L-30"><span class="linenos"> 30</span></a><span class="sd">        Typen, um Informationen zu typisieren. Die Wahl und Interpretation dieser Typen liegt vollständig beim Anwender. Informationen, die dieser Klasse übergeben werden, werden unabhängig vom Typ einheitlich behandelt.</span>
-</span><span id="L-31"><a href="#L-31"><span class="linenos"> 31</span></a>
-</span><span id="L-32"><a href="#L-32"><span class="linenos"> 32</span></a><span class="sd">        (Siehe auch `Framework.Informations.Informations`)</span>
-</span><span id="L-33"><a href="#L-33"><span class="linenos"> 33</span></a><span class="sd">        &quot;&quot;&quot;</span>    
-</span><span id="L-34"><a href="#L-34"><span class="linenos"> 34</span></a>        <span class="n">DEBUG</span>   <span class="o">=</span> <span class="mi">1</span>
-</span><span id="L-35"><a href="#L-35"><span class="linenos"> 35</span></a>        <span class="n">INFO</span>    <span class="o">=</span> <span class="mi">2</span>
-</span><span id="L-36"><a href="#L-36"><span class="linenos"> 36</span></a>        <span class="n">WARN</span>    <span class="o">=</span> <span class="mi">4</span>
-</span><span id="L-37"><a href="#L-37"><span class="linenos"> 37</span></a>        <span class="n">ERROR</span>   <span class="o">=</span> <span class="mi">8</span>
-</span><span id="L-38"><a href="#L-38"><span class="linenos"> 38</span></a>
-</span><span id="L-39"><a href="#L-39"><span class="linenos"> 39</span></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Entry</span><span class="p">(</span><span class="nb">dict</span><span class="p">):</span>
-</span><span id="L-40"><a href="#L-40"><span class="linenos"> 40</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-41"><a href="#L-41"><span class="linenos"> 41</span></a><span class="sd">        Die übergebenen Informationen werden in den Entries mit entsprechenden Metainformationen erfasst und gespeichert. Diese sind über `Framework.Informations.entries` abrufbar.</span>
-</span><span id="L-42"><a href="#L-42"><span class="linenos"> 42</span></a><span class="sd">        &quot;&quot;&quot;</span>
-</span><span id="L-43"><a href="#L-43"><span class="linenos"> 43</span></a>        <span class="n">__textColumnWidth</span> <span class="o">=</span> <span class="mi">70</span>
-</span><span id="L-44"><a href="#L-44"><span class="linenos"> 44</span></a>
-</span><span id="L-45"><a href="#L-45"><span class="linenos"> 45</span></a>        <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">type</span><span class="p">,</span> <span class="n">file</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">func</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">line</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="L-46"><a href="#L-46"><span class="linenos"> 46</span></a>            <span class="n">dateTime</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
-</span><span id="L-47"><a href="#L-47"><span class="linenos"> 47</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">type</span>
-</span><span id="L-48"><a href="#L-48"><span class="linenos"> 48</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">file</span>
-</span><span id="L-49"><a href="#L-49"><span class="linenos"> 49</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">func</span>
-</span><span id="L-50"><a href="#L-50"><span class="linenos"> 50</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span>
-</span><span id="L-51"><a href="#L-51"><span class="linenos"> 51</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">text</span>
-</span><span id="L-52"><a href="#L-52"><span class="linenos"> 52</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dateTime</span><span class="o">.</span><span class="n">date</span><span class="p">()</span>
-</span><span id="L-53"><a href="#L-53"><span class="linenos"> 53</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dateTime</span><span class="o">.</span><span class="n">time</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">microsecond</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-</span><span id="L-54"><a href="#L-54"><span class="linenos"> 54</span></a>        
-</span><span id="L-55"><a href="#L-55"><span class="linenos"> 55</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">type</span><span class="p">,</span> <span class="n">oneLength</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-</span><span id="L-56"><a href="#L-56"><span class="linenos"> 56</span></a>            <span class="n">tmp</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">type</span><span class="p">)</span>
-</span><span id="L-57"><a href="#L-57"><span class="linenos"> 57</span></a>            <span class="n">tmp</span> <span class="o">=</span> <span class="s2">&quot;[&quot;</span> <span class="o">+</span> <span class="n">tmp</span><span class="p">[</span><span class="mi">6</span><span class="p">:]</span> <span class="o">+</span> <span class="s2">&quot;]&quot;</span>
-</span><span id="L-58"><a href="#L-58"><span class="linenos"> 58</span></a>            <span class="k">if</span><span class="p">(</span> <span class="n">oneLength</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span> <span class="o">==</span> <span class="mi">6</span><span class="p">):</span>
-</span><span id="L-59"><a href="#L-59"><span class="linenos"> 59</span></a>                <span class="n">tmp</span> <span class="o">=</span> <span class="n">tmp</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>
-</span><span id="L-60"><a href="#L-60"><span class="linenos"> 60</span></a>            <span class="k">return</span> <span class="n">tmp</span>
-</span><span id="L-61"><a href="#L-61"><span class="linenos"> 61</span></a>        
-</span><span id="L-62"><a href="#L-62"><span class="linenos"> 62</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">printSimple</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="L-63"><a href="#L-63"><span class="linenos"> 63</span></a><span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-64"><a href="#L-64"><span class="linenos"> 64</span></a><span class="sd">            Gibt einen Entry in einer Zeile im Terminal aus.</span>
-</span><span id="L-65"><a href="#L-65"><span class="linenos"> 65</span></a><span class="sd">            &quot;&quot;&quot;</span>            
-</span><span id="L-66"><a href="#L-66"><span class="linenos"> 66</span></a>            <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;module&gt;&quot;</span><span class="p">):</span>
-</span><span id="L-67"><a href="#L-67"><span class="linenos"> 67</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-</span><span id="L-68"><a href="#L-68"><span class="linenos"> 68</span></a>            <span class="k">else</span><span class="p">:</span>
-</span><span id="L-69"><a href="#L-69"><span class="linenos"> 69</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;-&gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;()&quot;</span>
-</span><span id="L-70"><a href="#L-70"><span class="linenos"> 70</span></a>            
-</span><span id="L-71"><a href="#L-71"><span class="linenos"> 71</span></a>            <span class="n">theString</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">])</span>
-</span><span id="L-72"><a href="#L-72"><span class="linenos"> 72</span></a>            <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot; &gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">func</span> <span class="o">+</span> <span class="s2">&quot; in line &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">]</span>
-</span><span id="L-73"><a href="#L-73"><span class="linenos"> 73</span></a>            <span class="k">if</span><span class="p">(</span><span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="L-74"><a href="#L-74"><span class="linenos"> 74</span></a>                <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot; on &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; at &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">])</span>
-</span><span id="L-75"><a href="#L-75"><span class="linenos"> 75</span></a>            <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n\&quot;</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
-</span><span id="L-76"><a href="#L-76"><span class="linenos"> 76</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">theString</span><span class="p">)</span>
-</span><span id="L-77"><a href="#L-77"><span class="linenos"> 77</span></a>
-</span><span id="L-78"><a href="#L-78"><span class="linenos"> 78</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">printBulky</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="L-79"><a href="#L-79"><span class="linenos"> 79</span></a><span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-80"><a href="#L-80"><span class="linenos"> 80</span></a><span class="sd">            Gibt einen Entry in mehreren Zeilen im Terminal aus.</span>
-</span><span id="L-81"><a href="#L-81"><span class="linenos"> 81</span></a><span class="sd">            &quot;&quot;&quot;</span>
-</span><span id="L-82"><a href="#L-82"><span class="linenos"> 82</span></a>            <span class="n">separationLine</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span> <span class="o">*</span> <span class="s2">&quot;-&quot;</span>
-</span><span id="L-83"><a href="#L-83"><span class="linenos"> 83</span></a>
-</span><span id="L-84"><a href="#L-84"><span class="linenos"> 84</span></a>            <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;module&gt;&quot;</span><span class="p">):</span>
-</span><span id="L-85"><a href="#L-85"><span class="linenos"> 85</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-</span><span id="L-86"><a href="#L-86"><span class="linenos"> 86</span></a>            <span class="k">else</span><span class="p">:</span>
-</span><span id="L-87"><a href="#L-87"><span class="linenos"> 87</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;-&gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;()&quot;</span>
-</span><span id="L-88"><a href="#L-88"><span class="linenos"> 88</span></a>            <span class="n">text</span> <span class="o">=</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span>
-</span><span id="L-89"><a href="#L-89"><span class="linenos"> 89</span></a>
-</span><span id="L-90"><a href="#L-90"><span class="linenos"> 90</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">separationLine</span><span class="p">)</span>
-</span><span id="L-91"><a href="#L-91"><span class="linenos"> 91</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">])</span> <span class="p">)</span>
-</span><span id="L-92"><a href="#L-92"><span class="linenos"> 92</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">func</span> <span class="o">+</span> <span class="s2">&quot; in line &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">])</span>
-</span><span id="L-93"><a href="#L-93"><span class="linenos"> 93</span></a>            <span class="k">if</span><span class="p">(</span><span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="L-94"><a href="#L-94"><span class="linenos"> 94</span></a>                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| On &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; at &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]))</span>
-</span><span id="L-95"><a href="#L-95"><span class="linenos"> 95</span></a>            <span class="k">while</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)):</span>
-</span><span id="L-96"><a href="#L-96"><span class="linenos"> 96</span></a>                <span class="n">tmp</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span><span class="p">]</span>
-</span><span id="L-97"><a href="#L-97"><span class="linenos"> 97</span></a>                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="n">tmp</span><span class="p">)</span>
-</span><span id="L-98"><a href="#L-98"><span class="linenos"> 98</span></a>                <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span><span class="p">:]</span>
-</span><span id="L-99"><a href="#L-99"><span class="linenos"> 99</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">separationLine</span><span class="p">)</span>
-</span><span id="L-100"><a href="#L-100"><span class="linenos">100</span></a>
-</span><span id="L-101"><a href="#L-101"><span class="linenos">101</span></a>    <span class="c1">###############################################################################################</span>
-</span><span id="L-102"><a href="#L-102"><span class="linenos">102</span></a>    <span class="c1"># class variables</span>
-</span><span id="L-103"><a href="#L-103"><span class="linenos">103</span></a>    <span class="n">_entries</span>                <span class="o">=</span> <span class="nb">list</span><span class="p">[</span><span class="n">Entry</span><span class="p">]()</span>
-</span><span id="L-104"><a href="#L-104"><span class="linenos">104</span></a>    <span class="n">__printAnnouncements</span>    <span class="o">=</span> <span class="n">Verbosity</span><span class="o">.</span><span class="n">PrintSimple</span>
-</span><span id="L-105"><a href="#L-105"><span class="linenos">105</span></a>    <span class="n">__typesToPrint</span>          <span class="o">=</span> <span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span> <span class="o">|</span> <span class="n">Types</span><span class="o">.</span><span class="n">INFO</span> <span class="o">|</span> <span class="n">Types</span><span class="o">.</span><span class="n">WARN</span> <span class="o">|</span> <span class="n">Types</span><span class="o">.</span><span class="n">ERROR</span>
-</span><span id="L-106"><a href="#L-106"><span class="linenos">106</span></a>    <span class="n">__printDateTime</span>         <span class="o">=</span> <span class="kc">True</span>
-</span><span id="L-107"><a href="#L-107"><span class="linenos">107</span></a>
-</span><span id="L-108"><a href="#L-108"><span class="linenos">108</span></a>    <span class="c1">###############################################################################################</span>
-</span><span id="L-109"><a href="#L-109"><span class="linenos">109</span></a>    <span class="c1"># private functions</span>
-</span><span id="L-110"><a href="#L-110"><span class="linenos">110</span></a>    <span class="c1">#----------------------------------------------------------------------------------------------</span>
-</span><span id="L-111"><a href="#L-111"><span class="linenos">111</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">_appendInfo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">type</span> <span class="p">:</span> <span class="n">Types</span><span class="p">,</span> <span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="L-112"><a href="#L-112"><span class="linenos">112</span></a>        <span class="c1"># inspect provides informations on the execution of a program</span>
-</span><span id="L-113"><a href="#L-113"><span class="linenos">113</span></a>        <span class="c1"># current frame is referencing the frame of this function (def announceError(self, text : str))</span>
-</span><span id="L-114"><a href="#L-114"><span class="linenos">114</span></a>        <span class="n">currentFrame</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">currentframe</span><span class="p">()</span>
-</span><span id="L-115"><a href="#L-115"><span class="linenos">115</span></a>        <span class="c1"># a list of al the frames / calles, that lead to the call of this function</span>
-</span><span id="L-116"><a href="#L-116"><span class="linenos">116</span></a>        <span class="n">callingFrame</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">getouterframes</span><span class="p">(</span><span class="n">currentFrame</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-</span><span id="L-117"><a href="#L-117"><span class="linenos">117</span></a>        <span class="c1"># we are interessted in the function that called the announce...() functions</span>
-</span><span id="L-118"><a href="#L-118"><span class="linenos">118</span></a>        <span class="k">for</span> <span class="n">frame</span> <span class="ow">in</span> <span class="n">callingFrame</span><span class="p">:</span>
-</span><span id="L-119"><a href="#L-119"><span class="linenos">119</span></a>            <span class="k">if</span> <span class="ow">not</span> <span class="s2">&quot;Informations.py&quot;</span> <span class="ow">in</span> <span class="n">frame</span><span class="o">.</span><span class="n">filename</span><span class="p">:</span>
-</span><span id="L-120"><a href="#L-120"><span class="linenos">120</span></a>                <span class="k">break</span>
-</span><span id="L-121"><a href="#L-121"><span class="linenos">121</span></a>        <span class="n">frameInfo</span> <span class="o">=</span> <span class="n">frame</span>
-</span><span id="L-122"><a href="#L-122"><span class="linenos">122</span></a>
-</span><span id="L-123"><a href="#L-123"><span class="linenos">123</span></a>        <span class="n">filename</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">frameInfo</span><span class="o">.</span><span class="n">filename</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">&quot;</span><span class="p">)</span>
-</span><span id="L-124"><a href="#L-124"><span class="linenos">124</span></a>        <span class="n">filename</span> <span class="o">=</span> <span class="n">filename</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</span><span id="L-125"><a href="#L-125"><span class="linenos">125</span></a>
-</span><span id="L-126"><a href="#L-126"><span class="linenos">126</span></a>        <span class="n">entry</span> <span class="o">=</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Entry</span><span class="p">(</span><span class="n">file</span><span class="o">=</span><span class="n">filename</span><span class="p">,</span> <span class="n">func</span><span class="o">=</span><span class="n">frameInfo</span><span class="o">.</span><span class="n">function</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">frameInfo</span><span class="o">.</span><span class="n">lineno</span><span class="p">),</span> <span class="nb">type</span><span class="o">=</span><span class="nb">type</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="n">text</span><span class="p">)</span>
-</span><span id="L-127"><a href="#L-127"><span class="linenos">127</span></a>        <span class="bp">self</span><span class="o">.</span><span class="n">_entries</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
-</span><span id="L-128"><a href="#L-128"><span class="linenos">128</span></a>
-</span><span id="L-129"><a href="#L-129"><span class="linenos">129</span></a>        <span class="k">if</span> <span class="ow">not</span> <span class="nb">type</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typesToPrint</span><span class="p">:</span>
-</span><span id="L-130"><a href="#L-130"><span class="linenos">130</span></a>            <span class="k">return</span>
-</span><span id="L-131"><a href="#L-131"><span class="linenos">131</span></a>        
-</span><span id="L-132"><a href="#L-132"><span class="linenos">132</span></a>        <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__printAnnouncements</span> <span class="o">==</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Verbosity</span><span class="o">.</span><span class="n">PrintSimple</span><span class="p">):</span>
-</span><span id="L-133"><a href="#L-133"><span class="linenos">133</span></a>            <span class="n">entry</span><span class="o">.</span><span class="n">printSimple</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__printDateTime</span><span class="p">)</span>
-</span><span id="L-134"><a href="#L-134"><span class="linenos">134</span></a>        <span class="k">elif</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__printAnnouncements</span> <span class="o">==</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Verbosity</span><span class="o">.</span><span class="n">PrintBulky</span><span class="p">):</span>
-</span><span id="L-135"><a href="#L-135"><span class="linenos">135</span></a>            <span class="n">entry</span><span class="o">.</span><span class="n">printBulky</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__printDateTime</span><span class="p">)</span>
-</span><span id="L-136"><a href="#L-136"><span class="linenos">136</span></a>   
-</span><span id="L-137"><a href="#L-137"><span class="linenos">137</span></a>    <span class="c1">#----------------------------------------------------------------------------------------------</span>
-</span><span id="L-138"><a href="#L-138"><span class="linenos">138</span></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">verbosity</span> <span class="p">:</span> <span class="n">Verbosity</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">types</span> <span class="p">:</span> <span class="n">Types</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">dateTime</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="L-139"><a href="#L-139"><span class="linenos">139</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-140"><a href="#L-140"><span class="linenos">140</span></a><span class="sd">        Um die Default-Einstellungen zu ändern, wird empfohlen, eine Instanz von Informations einmalig aufzurufen und die Verbosity und die Types einmalig zu setzen. Diese Wahl gilt dann für die gesamte Anwendung.</span>
-</span><span id="L-141"><a href="#L-141"><span class="linenos">141</span></a><span class="sd">        </span>
-</span><span id="L-142"><a href="#L-142"><span class="linenos">142</span></a><span class="sd">        &lt;li&gt; verbosity (Informations.Verbosity, optional) Standardmäßg ist PrintSimple gesetzt.</span>
-</span><span id="L-143"><a href="#L-143"><span class="linenos">143</span></a><span class="sd">        &lt;li&gt; types (Informations.Types, optional)   Standardmäßig werden alle Typen ausgegeben.</span>
-</span><span id="L-144"><a href="#L-144"><span class="linenos">144</span></a><span class="sd">        &quot;&quot;&quot;</span>
-</span><span id="L-145"><a href="#L-145"><span class="linenos">145</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">verbosity</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="L-146"><a href="#L-146"><span class="linenos">146</span></a>            <span class="bp">self</span><span class="o">.</span><span class="n">__printAnnouncements</span> <span class="o">=</span> <span class="n">verbosity</span>
-</span><span id="L-147"><a href="#L-147"><span class="linenos">147</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">types</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="L-148"><a href="#L-148"><span class="linenos">148</span></a>            <span class="bp">self</span><span class="o">.</span><span class="n">__typesToPrint</span> <span class="o">=</span> <span class="n">types</span>
-</span><span id="L-149"><a href="#L-149"><span class="linenos">149</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">dateTime</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="L-150"><a href="#L-150"><span class="linenos">150</span></a>            <span class="bp">self</span><span class="o">.</span><span class="n">__printDateTime</span> <span class="o">=</span> <span class="n">dateTime</span>
-</span><span id="L-151"><a href="#L-151"><span class="linenos">151</span></a>
-</span><span id="L-152"><a href="#L-152"><span class="linenos">152</span></a>    <span class="c1">#----------------------------------------------------------------------------------------------</span>
-</span><span id="L-153"><a href="#L-153"><span class="linenos">153</span></a>    <span class="c1"># Framework modules are create as singleton, so the very same instance</span>
-</span><span id="L-154"><a href="#L-154"><span class="linenos">154</span></a>    <span class="c1"># can be called from anywhere</span>
-</span><span id="L-155"><a href="#L-155"><span class="linenos">155</span></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">verbosity</span> <span class="p">:</span> <span class="n">Verbosity</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">types</span> <span class="p">:</span> <span class="n">Types</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">dateTime</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="L-156"><a href="#L-156"><span class="linenos">156</span></a>        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="s1">&#39;instance&#39;</span><span class="p">):</span>
-</span><span id="L-157"><a href="#L-157"><span class="linenos">157</span></a>            <span class="bp">cls</span><span class="o">.</span><span class="n">instance</span> <span class="o">=</span> <span class="nb">super</span><span class="p">(</span><span class="n">Informations</span><span class="p">,</span> <span class="bp">cls</span><span class="p">)</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span>
-</span><span id="L-158"><a href="#L-158"><span class="linenos">158</span></a>        <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">instance</span>
-</span><span id="L-159"><a href="#L-159"><span class="linenos">159</span></a>
-</span><span id="L-160"><a href="#L-160"><span class="linenos">160</span></a>    <span class="c1">###############################################################################################</span>
-</span><span id="L-161"><a href="#L-161"><span class="linenos">161</span></a>    <span class="c1"># Public functions</span>
-</span><span id="L-162"><a href="#L-162"><span class="linenos">162</span></a>
-</span><span id="L-163"><a href="#L-163"><span class="linenos">163</span></a><span class="c1">###################################################################################################</span>
-</span><span id="L-164"><a href="#L-164"><span class="linenos">164</span></a><span class="c1"># Public global functions / Helper functions</span>
-</span><span id="L-165"><a href="#L-165"><span class="linenos">165</span></a><span class="c1">#--------------------------------------------------------------------------------------------------</span>
-</span><span id="L-166"><a href="#L-166"><span class="linenos">166</span></a><span class="k">def</span><span class="w"> </span><span class="nf">announceInfo</span><span class="p">(</span><span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="L-167"><a href="#L-167"><span class="linenos">167</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-168"><a href="#L-168"><span class="linenos">168</span></a><span class="sd">    Globale Funktion, um eine Information vom Typ INFO zu erfassen.</span>
-</span><span id="L-169"><a href="#L-169"><span class="linenos">169</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="L-170"><a href="#L-170"><span class="linenos">170</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="L-171"><a href="#L-171"><span class="linenos">171</span></a>    <span class="n">infos</span><span class="o">.</span><span class="n">_appendInfo</span><span class="p">(</span><span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span><span id="L-172"><a href="#L-172"><span class="linenos">172</span></a>
-</span><span id="L-173"><a href="#L-173"><span class="linenos">173</span></a><span class="c1">#--------------------------------------------------------------------------------------------------</span>
-</span><span id="L-174"><a href="#L-174"><span class="linenos">174</span></a><span class="k">def</span><span class="w"> </span><span class="nf">announceWarning</span><span class="p">(</span><span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="L-175"><a href="#L-175"><span class="linenos">175</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-176"><a href="#L-176"><span class="linenos">176</span></a><span class="sd">    Globale Funktion, um eine Information vom Typ WARN zu erfassen.</span>
-</span><span id="L-177"><a href="#L-177"><span class="linenos">177</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="L-178"><a href="#L-178"><span class="linenos">178</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="L-179"><a href="#L-179"><span class="linenos">179</span></a>    <span class="n">infos</span><span class="o">.</span><span class="n">_appendInfo</span><span class="p">(</span><span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">WARN</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span><span id="L-180"><a href="#L-180"><span class="linenos">180</span></a>
-</span><span id="L-181"><a href="#L-181"><span class="linenos">181</span></a><span class="c1">#--------------------------------------------------------------------------------------------------</span>
-</span><span id="L-182"><a href="#L-182"><span class="linenos">182</span></a><span class="k">def</span><span class="w"> </span><span class="nf">announceError</span><span class="p">(</span><span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="L-183"><a href="#L-183"><span class="linenos">183</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-184"><a href="#L-184"><span class="linenos">184</span></a><span class="sd">    Globale Funktion, um eine Information vom Typ ERROR zu erfassen.</span>
-</span><span id="L-185"><a href="#L-185"><span class="linenos">185</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="L-186"><a href="#L-186"><span class="linenos">186</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="L-187"><a href="#L-187"><span class="linenos">187</span></a>    <span class="n">infos</span><span class="o">.</span><span class="n">_appendInfo</span><span class="p">(</span><span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">ERROR</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span><span id="L-188"><a href="#L-188"><span class="linenos">188</span></a>
-</span><span id="L-189"><a href="#L-189"><span class="linenos">189</span></a><span class="c1">#--------------------------------------------------------------------------------------------------</span>
-</span><span id="L-190"><a href="#L-190"><span class="linenos">190</span></a><span class="k">def</span><span class="w"> </span><span class="nf">announceDebug</span><span class="p">(</span><span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="L-191"><a href="#L-191"><span class="linenos">191</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-192"><a href="#L-192"><span class="linenos">192</span></a><span class="sd">    Globale Funktion, um eine Information vom Typ DEBUG zu erfassen.</span>
-</span><span id="L-193"><a href="#L-193"><span class="linenos">193</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="L-194"><a href="#L-194"><span class="linenos">194</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="L-195"><a href="#L-195"><span class="linenos">195</span></a>    <span class="n">infos</span><span class="o">.</span><span class="n">_appendInfo</span><span class="p">(</span><span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span><span id="L-196"><a href="#L-196"><span class="linenos">196</span></a>
-</span><span id="L-197"><a href="#L-197"><span class="linenos">197</span></a><span class="c1">#----------------------------------------------------------------------------------------------</span>
-</span><span id="L-198"><a href="#L-198"><span class="linenos">198</span></a><span class="k">def</span><span class="w"> </span><span class="nf">printEntries</span><span class="p">(</span><span class="n">types</span> <span class="p">:</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span> <span class="o">=</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">INFO</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">WARN</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">ERROR</span><span class="p">):</span>
-</span><span id="L-199"><a href="#L-199"><span class="linenos">199</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-200"><a href="#L-200"><span class="linenos">200</span></a><span class="sd">    Globale Funktion, um alle Information mit den ausgewählten Typen im Terminal auszugeben.</span>
-</span><span id="L-201"><a href="#L-201"><span class="linenos">201</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="L-202"><a href="#L-202"><span class="linenos">202</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="L-203"><a href="#L-203"><span class="linenos">203</span></a>    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">infos</span><span class="o">.</span><span class="n">_entries</span><span class="p">:</span>
-</span><span id="L-204"><a href="#L-204"><span class="linenos">204</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">types</span><span class="p">):</span>
-</span><span id="L-205"><a href="#L-205"><span class="linenos">205</span></a>            <span class="n">entry</span><span class="o">.</span><span class="n">printSimple</span><span class="p">()</span>
-</span><span id="L-206"><a href="#L-206"><span class="linenos">206</span></a>
-</span><span id="L-207"><a href="#L-207"><span class="linenos">207</span></a><span class="c1">#----------------------------------------------------------------------------------------------</span>
-</span><span id="L-208"><a href="#L-208"><span class="linenos">208</span></a><span class="k">def</span><span class="w"> </span><span class="nf">entries</span><span class="p">(</span><span class="n">types</span> <span class="p">:</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span> <span class="o">=</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">INFO</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">WARN</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">ERROR</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">Informations</span><span class="o">.</span><span class="n">Entry</span><span class="p">]:</span>
-</span><span id="L-209"><a href="#L-209"><span class="linenos">209</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-210"><a href="#L-210"><span class="linenos">210</span></a><span class="sd">    Globale Funktion, um alle Information mit den ausgewählten Typen zurückzugeben.</span>
-</span><span id="L-211"><a href="#L-211"><span class="linenos">211</span></a><span class="sd">    &quot;&quot;&quot;</span> 
-</span><span id="L-212"><a href="#L-212"><span class="linenos">212</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="L-213"><a href="#L-213"><span class="linenos">213</span></a>    <span class="n">output</span> <span class="o">=</span> <span class="p">[]</span>
-</span><span id="L-214"><a href="#L-214"><span class="linenos">214</span></a>    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">infos</span><span class="o">.</span><span class="n">_entries</span><span class="p">:</span>
-</span><span id="L-215"><a href="#L-215"><span class="linenos">215</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">types</span><span class="p">):</span>
-</span><span id="L-216"><a href="#L-216"><span class="linenos">216</span></a>            <span class="n">output</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
-</span><span id="L-217"><a href="#L-217"><span class="linenos">217</span></a>    <span class="k">return</span> <span class="n">output</span>
-</span></pre></div>
-
-
+                
+                
+                
             </section>
                 <section id="Informations">
-                            <input id="Informations-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr class">
+                    <div class="attr class">
             
     <span class="def">class</span>
     <span class="name">Informations</span>:
 
-                <label class="view-source-button" for="Informations-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#Informations"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="Informations-6"><a href="#Informations-6"><span class="linenos">  6</span></a><span class="k">class</span><span class="w"> </span><span class="nc">Informations</span><span class="p">:</span>
-</span><span id="Informations-7"><a href="#Informations-7"><span class="linenos">  7</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations-8"><a href="#Informations-8"><span class="linenos">  8</span></a><span class="sd">    Diese Klasse dient dazu, Hinweise, die während der Ausführung einer Anwendung erfasst werden sollen, ...</span>
-</span><span id="Informations-9"><a href="#Informations-9"><span class="linenos">  9</span></a><span class="sd">    &lt;li&gt; ... zentral zu speichern und für anschließende Aufrufe bereitzustellen. Diese Informationen können entsprechend weiterführender Anwendungsfälle angezeigt, gespeichert oder analysiert werden.</span>
-</span><span id="Informations-10"><a href="#Informations-10"><span class="linenos"> 10</span></a><span class="sd">    &lt;li&gt; ... über einheitliche und leicht zugängliche Funktionen direkt im Terminal auszugeben.</span>
-</span><span id="Informations-11"><a href="#Informations-11"><span class="linenos"> 11</span></a>
-</span><span id="Informations-12"><a href="#Informations-12"><span class="linenos"> 12</span></a><span class="sd">    Je nach Wahl der `Framework.Informations.Informations.Verbosity` werden die Informationen im Terminal ausgegeben.</span>
-</span><span id="Informations-13"><a href="#Informations-13"><span class="linenos"> 13</span></a>
-</span><span id="Informations-14"><a href="#Informations-14"><span class="linenos"> 14</span></a><span class="sd">    Je nachdem welcher der announce-Funktionen genutzt wird, werden die Informationen automatisch typisiert. (Beispielsweise `Framework.Informations.Informations.announceInfo`)</span>
-</span><span id="Informations-15"><a href="#Informations-15"><span class="linenos"> 15</span></a><span class="sd">    &quot;&quot;&quot;</span>
-</span><span id="Informations-16"><a href="#Informations-16"><span class="linenos"> 16</span></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Verbosity</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
-</span><span id="Informations-17"><a href="#Informations-17"><span class="linenos"> 17</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations-18"><a href="#Informations-18"><span class="linenos"> 18</span></a><span class="sd">        Definiert, wie umfangreich Ausgaben gestaltet werden sollen.</span>
-</span><span id="Informations-19"><a href="#Informations-19"><span class="linenos"> 19</span></a><span class="sd">        &lt;li&gt; NoPrint: Keine Ausgabe</span>
-</span><span id="Informations-20"><a href="#Informations-20"><span class="linenos"> 20</span></a><span class="sd">        &lt;li&gt; PrintSimple: Ausgabe in einer Zeile</span>
-</span><span id="Informations-21"><a href="#Informations-21"><span class="linenos"> 21</span></a><span class="sd">        &lt;li&gt; PrintBulky: Ausgabe mit einer auffälligen Hervorhebung.</span>
-</span><span id="Informations-22"><a href="#Informations-22"><span class="linenos"> 22</span></a>
-</span><span id="Informations-23"><a href="#Informations-23"><span class="linenos"> 23</span></a><span class="sd">        (Siehe auch `Framework.Informations.Informations`)</span>
-</span><span id="Informations-24"><a href="#Informations-24"><span class="linenos"> 24</span></a><span class="sd">        &quot;&quot;&quot;</span>        
-</span><span id="Informations-25"><a href="#Informations-25"><span class="linenos"> 25</span></a>        <span class="n">NoPrint</span>             <span class="o">=</span>  <span class="mi">0</span>
-</span><span id="Informations-26"><a href="#Informations-26"><span class="linenos"> 26</span></a>        <span class="n">PrintSimple</span>         <span class="o">=</span>  <span class="mi">1</span>
-</span><span id="Informations-27"><a href="#Informations-27"><span class="linenos"> 27</span></a>        <span class="n">PrintBulky</span>          <span class="o">=</span>  <span class="mi">2</span>
-</span><span id="Informations-28"><a href="#Informations-28"><span class="linenos"> 28</span></a>
-</span><span id="Informations-29"><a href="#Informations-29"><span class="linenos"> 29</span></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Types</span><span class="p">(</span><span class="n">Flag</span><span class="p">):</span>
-</span><span id="Informations-30"><a href="#Informations-30"><span class="linenos"> 30</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations-31"><a href="#Informations-31"><span class="linenos"> 31</span></a><span class="sd">        Typen, um Informationen zu typisieren. Die Wahl und Interpretation dieser Typen liegt vollständig beim Anwender. Informationen, die dieser Klasse übergeben werden, werden unabhängig vom Typ einheitlich behandelt.</span>
-</span><span id="Informations-32"><a href="#Informations-32"><span class="linenos"> 32</span></a>
-</span><span id="Informations-33"><a href="#Informations-33"><span class="linenos"> 33</span></a><span class="sd">        (Siehe auch `Framework.Informations.Informations`)</span>
-</span><span id="Informations-34"><a href="#Informations-34"><span class="linenos"> 34</span></a><span class="sd">        &quot;&quot;&quot;</span>    
-</span><span id="Informations-35"><a href="#Informations-35"><span class="linenos"> 35</span></a>        <span class="n">DEBUG</span>   <span class="o">=</span> <span class="mi">1</span>
-</span><span id="Informations-36"><a href="#Informations-36"><span class="linenos"> 36</span></a>        <span class="n">INFO</span>    <span class="o">=</span> <span class="mi">2</span>
-</span><span id="Informations-37"><a href="#Informations-37"><span class="linenos"> 37</span></a>        <span class="n">WARN</span>    <span class="o">=</span> <span class="mi">4</span>
-</span><span id="Informations-38"><a href="#Informations-38"><span class="linenos"> 38</span></a>        <span class="n">ERROR</span>   <span class="o">=</span> <span class="mi">8</span>
-</span><span id="Informations-39"><a href="#Informations-39"><span class="linenos"> 39</span></a>
-</span><span id="Informations-40"><a href="#Informations-40"><span class="linenos"> 40</span></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Entry</span><span class="p">(</span><span class="nb">dict</span><span class="p">):</span>
-</span><span id="Informations-41"><a href="#Informations-41"><span class="linenos"> 41</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations-42"><a href="#Informations-42"><span class="linenos"> 42</span></a><span class="sd">        Die übergebenen Informationen werden in den Entries mit entsprechenden Metainformationen erfasst und gespeichert. Diese sind über `Framework.Informations.entries` abrufbar.</span>
-</span><span id="Informations-43"><a href="#Informations-43"><span class="linenos"> 43</span></a><span class="sd">        &quot;&quot;&quot;</span>
-</span><span id="Informations-44"><a href="#Informations-44"><span class="linenos"> 44</span></a>        <span class="n">__textColumnWidth</span> <span class="o">=</span> <span class="mi">70</span>
-</span><span id="Informations-45"><a href="#Informations-45"><span class="linenos"> 45</span></a>
-</span><span id="Informations-46"><a href="#Informations-46"><span class="linenos"> 46</span></a>        <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">type</span><span class="p">,</span> <span class="n">file</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">func</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">line</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="Informations-47"><a href="#Informations-47"><span class="linenos"> 47</span></a>            <span class="n">dateTime</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
-</span><span id="Informations-48"><a href="#Informations-48"><span class="linenos"> 48</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">type</span>
-</span><span id="Informations-49"><a href="#Informations-49"><span class="linenos"> 49</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">file</span>
-</span><span id="Informations-50"><a href="#Informations-50"><span class="linenos"> 50</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">func</span>
-</span><span id="Informations-51"><a href="#Informations-51"><span class="linenos"> 51</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span>
-</span><span id="Informations-52"><a href="#Informations-52"><span class="linenos"> 52</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">text</span>
-</span><span id="Informations-53"><a href="#Informations-53"><span class="linenos"> 53</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dateTime</span><span class="o">.</span><span class="n">date</span><span class="p">()</span>
-</span><span id="Informations-54"><a href="#Informations-54"><span class="linenos"> 54</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dateTime</span><span class="o">.</span><span class="n">time</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">microsecond</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-</span><span id="Informations-55"><a href="#Informations-55"><span class="linenos"> 55</span></a>        
-</span><span id="Informations-56"><a href="#Informations-56"><span class="linenos"> 56</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">type</span><span class="p">,</span> <span class="n">oneLength</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-</span><span id="Informations-57"><a href="#Informations-57"><span class="linenos"> 57</span></a>            <span class="n">tmp</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">type</span><span class="p">)</span>
-</span><span id="Informations-58"><a href="#Informations-58"><span class="linenos"> 58</span></a>            <span class="n">tmp</span> <span class="o">=</span> <span class="s2">&quot;[&quot;</span> <span class="o">+</span> <span class="n">tmp</span><span class="p">[</span><span class="mi">6</span><span class="p">:]</span> <span class="o">+</span> <span class="s2">&quot;]&quot;</span>
-</span><span id="Informations-59"><a href="#Informations-59"><span class="linenos"> 59</span></a>            <span class="k">if</span><span class="p">(</span> <span class="n">oneLength</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span> <span class="o">==</span> <span class="mi">6</span><span class="p">):</span>
-</span><span id="Informations-60"><a href="#Informations-60"><span class="linenos"> 60</span></a>                <span class="n">tmp</span> <span class="o">=</span> <span class="n">tmp</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>
-</span><span id="Informations-61"><a href="#Informations-61"><span class="linenos"> 61</span></a>            <span class="k">return</span> <span class="n">tmp</span>
-</span><span id="Informations-62"><a href="#Informations-62"><span class="linenos"> 62</span></a>        
-</span><span id="Informations-63"><a href="#Informations-63"><span class="linenos"> 63</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">printSimple</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations-64"><a href="#Informations-64"><span class="linenos"> 64</span></a><span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations-65"><a href="#Informations-65"><span class="linenos"> 65</span></a><span class="sd">            Gibt einen Entry in einer Zeile im Terminal aus.</span>
-</span><span id="Informations-66"><a href="#Informations-66"><span class="linenos"> 66</span></a><span class="sd">            &quot;&quot;&quot;</span>            
-</span><span id="Informations-67"><a href="#Informations-67"><span class="linenos"> 67</span></a>            <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;module&gt;&quot;</span><span class="p">):</span>
-</span><span id="Informations-68"><a href="#Informations-68"><span class="linenos"> 68</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-</span><span id="Informations-69"><a href="#Informations-69"><span class="linenos"> 69</span></a>            <span class="k">else</span><span class="p">:</span>
-</span><span id="Informations-70"><a href="#Informations-70"><span class="linenos"> 70</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;-&gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;()&quot;</span>
-</span><span id="Informations-71"><a href="#Informations-71"><span class="linenos"> 71</span></a>            
-</span><span id="Informations-72"><a href="#Informations-72"><span class="linenos"> 72</span></a>            <span class="n">theString</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">])</span>
-</span><span id="Informations-73"><a href="#Informations-73"><span class="linenos"> 73</span></a>            <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot; &gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">func</span> <span class="o">+</span> <span class="s2">&quot; in line &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">]</span>
-</span><span id="Informations-74"><a href="#Informations-74"><span class="linenos"> 74</span></a>            <span class="k">if</span><span class="p">(</span><span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations-75"><a href="#Informations-75"><span class="linenos"> 75</span></a>                <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot; on &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; at &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">])</span>
-</span><span id="Informations-76"><a href="#Informations-76"><span class="linenos"> 76</span></a>            <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n\&quot;</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
-</span><span id="Informations-77"><a href="#Informations-77"><span class="linenos"> 77</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">theString</span><span class="p">)</span>
-</span><span id="Informations-78"><a href="#Informations-78"><span class="linenos"> 78</span></a>
-</span><span id="Informations-79"><a href="#Informations-79"><span class="linenos"> 79</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">printBulky</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations-80"><a href="#Informations-80"><span class="linenos"> 80</span></a><span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations-81"><a href="#Informations-81"><span class="linenos"> 81</span></a><span class="sd">            Gibt einen Entry in mehreren Zeilen im Terminal aus.</span>
-</span><span id="Informations-82"><a href="#Informations-82"><span class="linenos"> 82</span></a><span class="sd">            &quot;&quot;&quot;</span>
-</span><span id="Informations-83"><a href="#Informations-83"><span class="linenos"> 83</span></a>            <span class="n">separationLine</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span> <span class="o">*</span> <span class="s2">&quot;-&quot;</span>
-</span><span id="Informations-84"><a href="#Informations-84"><span class="linenos"> 84</span></a>
-</span><span id="Informations-85"><a href="#Informations-85"><span class="linenos"> 85</span></a>            <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;module&gt;&quot;</span><span class="p">):</span>
-</span><span id="Informations-86"><a href="#Informations-86"><span class="linenos"> 86</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-</span><span id="Informations-87"><a href="#Informations-87"><span class="linenos"> 87</span></a>            <span class="k">else</span><span class="p">:</span>
-</span><span id="Informations-88"><a href="#Informations-88"><span class="linenos"> 88</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;-&gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;()&quot;</span>
-</span><span id="Informations-89"><a href="#Informations-89"><span class="linenos"> 89</span></a>            <span class="n">text</span> <span class="o">=</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span>
-</span><span id="Informations-90"><a href="#Informations-90"><span class="linenos"> 90</span></a>
-</span><span id="Informations-91"><a href="#Informations-91"><span class="linenos"> 91</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">separationLine</span><span class="p">)</span>
-</span><span id="Informations-92"><a href="#Informations-92"><span class="linenos"> 92</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">])</span> <span class="p">)</span>
-</span><span id="Informations-93"><a href="#Informations-93"><span class="linenos"> 93</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">func</span> <span class="o">+</span> <span class="s2">&quot; in line &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">])</span>
-</span><span id="Informations-94"><a href="#Informations-94"><span class="linenos"> 94</span></a>            <span class="k">if</span><span class="p">(</span><span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations-95"><a href="#Informations-95"><span class="linenos"> 95</span></a>                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| On &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; at &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]))</span>
-</span><span id="Informations-96"><a href="#Informations-96"><span class="linenos"> 96</span></a>            <span class="k">while</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)):</span>
-</span><span id="Informations-97"><a href="#Informations-97"><span class="linenos"> 97</span></a>                <span class="n">tmp</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span><span class="p">]</span>
-</span><span id="Informations-98"><a href="#Informations-98"><span class="linenos"> 98</span></a>                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="n">tmp</span><span class="p">)</span>
-</span><span id="Informations-99"><a href="#Informations-99"><span class="linenos"> 99</span></a>                <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span><span class="p">:]</span>
-</span><span id="Informations-100"><a href="#Informations-100"><span class="linenos">100</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">separationLine</span><span class="p">)</span>
-</span><span id="Informations-101"><a href="#Informations-101"><span class="linenos">101</span></a>
-</span><span id="Informations-102"><a href="#Informations-102"><span class="linenos">102</span></a>    <span class="c1">###############################################################################################</span>
-</span><span id="Informations-103"><a href="#Informations-103"><span class="linenos">103</span></a>    <span class="c1"># class variables</span>
-</span><span id="Informations-104"><a href="#Informations-104"><span class="linenos">104</span></a>    <span class="n">_entries</span>                <span class="o">=</span> <span class="nb">list</span><span class="p">[</span><span class="n">Entry</span><span class="p">]()</span>
-</span><span id="Informations-105"><a href="#Informations-105"><span class="linenos">105</span></a>    <span class="n">__printAnnouncements</span>    <span class="o">=</span> <span class="n">Verbosity</span><span class="o">.</span><span class="n">PrintSimple</span>
-</span><span id="Informations-106"><a href="#Informations-106"><span class="linenos">106</span></a>    <span class="n">__typesToPrint</span>          <span class="o">=</span> <span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span> <span class="o">|</span> <span class="n">Types</span><span class="o">.</span><span class="n">INFO</span> <span class="o">|</span> <span class="n">Types</span><span class="o">.</span><span class="n">WARN</span> <span class="o">|</span> <span class="n">Types</span><span class="o">.</span><span class="n">ERROR</span>
-</span><span id="Informations-107"><a href="#Informations-107"><span class="linenos">107</span></a>    <span class="n">__printDateTime</span>         <span class="o">=</span> <span class="kc">True</span>
-</span><span id="Informations-108"><a href="#Informations-108"><span class="linenos">108</span></a>
-</span><span id="Informations-109"><a href="#Informations-109"><span class="linenos">109</span></a>    <span class="c1">###############################################################################################</span>
-</span><span id="Informations-110"><a href="#Informations-110"><span class="linenos">110</span></a>    <span class="c1"># private functions</span>
-</span><span id="Informations-111"><a href="#Informations-111"><span class="linenos">111</span></a>    <span class="c1">#----------------------------------------------------------------------------------------------</span>
-</span><span id="Informations-112"><a href="#Informations-112"><span class="linenos">112</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">_appendInfo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">type</span> <span class="p">:</span> <span class="n">Types</span><span class="p">,</span> <span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="Informations-113"><a href="#Informations-113"><span class="linenos">113</span></a>        <span class="c1"># inspect provides informations on the execution of a program</span>
-</span><span id="Informations-114"><a href="#Informations-114"><span class="linenos">114</span></a>        <span class="c1"># current frame is referencing the frame of this function (def announceError(self, text : str))</span>
-</span><span id="Informations-115"><a href="#Informations-115"><span class="linenos">115</span></a>        <span class="n">currentFrame</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">currentframe</span><span class="p">()</span>
-</span><span id="Informations-116"><a href="#Informations-116"><span class="linenos">116</span></a>        <span class="c1"># a list of al the frames / calles, that lead to the call of this function</span>
-</span><span id="Informations-117"><a href="#Informations-117"><span class="linenos">117</span></a>        <span class="n">callingFrame</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">getouterframes</span><span class="p">(</span><span class="n">currentFrame</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-</span><span id="Informations-118"><a href="#Informations-118"><span class="linenos">118</span></a>        <span class="c1"># we are interessted in the function that called the announce...() functions</span>
-</span><span id="Informations-119"><a href="#Informations-119"><span class="linenos">119</span></a>        <span class="k">for</span> <span class="n">frame</span> <span class="ow">in</span> <span class="n">callingFrame</span><span class="p">:</span>
-</span><span id="Informations-120"><a href="#Informations-120"><span class="linenos">120</span></a>            <span class="k">if</span> <span class="ow">not</span> <span class="s2">&quot;Informations.py&quot;</span> <span class="ow">in</span> <span class="n">frame</span><span class="o">.</span><span class="n">filename</span><span class="p">:</span>
-</span><span id="Informations-121"><a href="#Informations-121"><span class="linenos">121</span></a>                <span class="k">break</span>
-</span><span id="Informations-122"><a href="#Informations-122"><span class="linenos">122</span></a>        <span class="n">frameInfo</span> <span class="o">=</span> <span class="n">frame</span>
-</span><span id="Informations-123"><a href="#Informations-123"><span class="linenos">123</span></a>
-</span><span id="Informations-124"><a href="#Informations-124"><span class="linenos">124</span></a>        <span class="n">filename</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">frameInfo</span><span class="o">.</span><span class="n">filename</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">&quot;</span><span class="p">)</span>
-</span><span id="Informations-125"><a href="#Informations-125"><span class="linenos">125</span></a>        <span class="n">filename</span> <span class="o">=</span> <span class="n">filename</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</span><span id="Informations-126"><a href="#Informations-126"><span class="linenos">126</span></a>
-</span><span id="Informations-127"><a href="#Informations-127"><span class="linenos">127</span></a>        <span class="n">entry</span> <span class="o">=</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Entry</span><span class="p">(</span><span class="n">file</span><span class="o">=</span><span class="n">filename</span><span class="p">,</span> <span class="n">func</span><span class="o">=</span><span class="n">frameInfo</span><span class="o">.</span><span class="n">function</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">frameInfo</span><span class="o">.</span><span class="n">lineno</span><span class="p">),</span> <span class="nb">type</span><span class="o">=</span><span class="nb">type</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="n">text</span><span class="p">)</span>
-</span><span id="Informations-128"><a href="#Informations-128"><span class="linenos">128</span></a>        <span class="bp">self</span><span class="o">.</span><span class="n">_entries</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
-</span><span id="Informations-129"><a href="#Informations-129"><span class="linenos">129</span></a>
-</span><span id="Informations-130"><a href="#Informations-130"><span class="linenos">130</span></a>        <span class="k">if</span> <span class="ow">not</span> <span class="nb">type</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typesToPrint</span><span class="p">:</span>
-</span><span id="Informations-131"><a href="#Informations-131"><span class="linenos">131</span></a>            <span class="k">return</span>
-</span><span id="Informations-132"><a href="#Informations-132"><span class="linenos">132</span></a>        
-</span><span id="Informations-133"><a href="#Informations-133"><span class="linenos">133</span></a>        <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__printAnnouncements</span> <span class="o">==</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Verbosity</span><span class="o">.</span><span class="n">PrintSimple</span><span class="p">):</span>
-</span><span id="Informations-134"><a href="#Informations-134"><span class="linenos">134</span></a>            <span class="n">entry</span><span class="o">.</span><span class="n">printSimple</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__printDateTime</span><span class="p">)</span>
-</span><span id="Informations-135"><a href="#Informations-135"><span class="linenos">135</span></a>        <span class="k">elif</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__printAnnouncements</span> <span class="o">==</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Verbosity</span><span class="o">.</span><span class="n">PrintBulky</span><span class="p">):</span>
-</span><span id="Informations-136"><a href="#Informations-136"><span class="linenos">136</span></a>            <span class="n">entry</span><span class="o">.</span><span class="n">printBulky</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__printDateTime</span><span class="p">)</span>
-</span><span id="Informations-137"><a href="#Informations-137"><span class="linenos">137</span></a>   
-</span><span id="Informations-138"><a href="#Informations-138"><span class="linenos">138</span></a>    <span class="c1">#----------------------------------------------------------------------------------------------</span>
-</span><span id="Informations-139"><a href="#Informations-139"><span class="linenos">139</span></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">verbosity</span> <span class="p">:</span> <span class="n">Verbosity</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">types</span> <span class="p">:</span> <span class="n">Types</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">dateTime</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="Informations-140"><a href="#Informations-140"><span class="linenos">140</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations-141"><a href="#Informations-141"><span class="linenos">141</span></a><span class="sd">        Um die Default-Einstellungen zu ändern, wird empfohlen, eine Instanz von Informations einmalig aufzurufen und die Verbosity und die Types einmalig zu setzen. Diese Wahl gilt dann für die gesamte Anwendung.</span>
-</span><span id="Informations-142"><a href="#Informations-142"><span class="linenos">142</span></a><span class="sd">        </span>
-</span><span id="Informations-143"><a href="#Informations-143"><span class="linenos">143</span></a><span class="sd">        &lt;li&gt; verbosity (Informations.Verbosity, optional) Standardmäßg ist PrintSimple gesetzt.</span>
-</span><span id="Informations-144"><a href="#Informations-144"><span class="linenos">144</span></a><span class="sd">        &lt;li&gt; types (Informations.Types, optional)   Standardmäßig werden alle Typen ausgegeben.</span>
-</span><span id="Informations-145"><a href="#Informations-145"><span class="linenos">145</span></a><span class="sd">        &quot;&quot;&quot;</span>
-</span><span id="Informations-146"><a href="#Informations-146"><span class="linenos">146</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">verbosity</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="Informations-147"><a href="#Informations-147"><span class="linenos">147</span></a>            <span class="bp">self</span><span class="o">.</span><span class="n">__printAnnouncements</span> <span class="o">=</span> <span class="n">verbosity</span>
-</span><span id="Informations-148"><a href="#Informations-148"><span class="linenos">148</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">types</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="Informations-149"><a href="#Informations-149"><span class="linenos">149</span></a>            <span class="bp">self</span><span class="o">.</span><span class="n">__typesToPrint</span> <span class="o">=</span> <span class="n">types</span>
-</span><span id="Informations-150"><a href="#Informations-150"><span class="linenos">150</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">dateTime</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="Informations-151"><a href="#Informations-151"><span class="linenos">151</span></a>            <span class="bp">self</span><span class="o">.</span><span class="n">__printDateTime</span> <span class="o">=</span> <span class="n">dateTime</span>
-</span><span id="Informations-152"><a href="#Informations-152"><span class="linenos">152</span></a>
-</span><span id="Informations-153"><a href="#Informations-153"><span class="linenos">153</span></a>    <span class="c1">#----------------------------------------------------------------------------------------------</span>
-</span><span id="Informations-154"><a href="#Informations-154"><span class="linenos">154</span></a>    <span class="c1"># Framework modules are create as singleton, so the very same instance</span>
-</span><span id="Informations-155"><a href="#Informations-155"><span class="linenos">155</span></a>    <span class="c1"># can be called from anywhere</span>
-</span><span id="Informations-156"><a href="#Informations-156"><span class="linenos">156</span></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">verbosity</span> <span class="p">:</span> <span class="n">Verbosity</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">types</span> <span class="p">:</span> <span class="n">Types</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">dateTime</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="Informations-157"><a href="#Informations-157"><span class="linenos">157</span></a>        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="s1">&#39;instance&#39;</span><span class="p">):</span>
-</span><span id="Informations-158"><a href="#Informations-158"><span class="linenos">158</span></a>            <span class="bp">cls</span><span class="o">.</span><span class="n">instance</span> <span class="o">=</span> <span class="nb">super</span><span class="p">(</span><span class="n">Informations</span><span class="p">,</span> <span class="bp">cls</span><span class="p">)</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span>
-</span><span id="Informations-159"><a href="#Informations-159"><span class="linenos">159</span></a>        <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">instance</span>
-</span><span id="Informations-160"><a href="#Informations-160"><span class="linenos">160</span></a>
-</span><span id="Informations-161"><a href="#Informations-161"><span class="linenos">161</span></a>    <span class="c1">###############################################################################################</span>
-</span><span id="Informations-162"><a href="#Informations-162"><span class="linenos">162</span></a>    <span class="c1"># Public functions</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Diese Klasse dient dazu, Hinweise, die während der Ausführung einer Anwendung erfasst werden sollen, ...
 <li> ... zentral zu speichern und für anschließende Aufrufe bereitzustellen. Diese Informationen können entsprechend weiterführender Anwendungsfälle angezeigt, gespeichert oder analysiert werden.
 <li> ... über einheitliche und leicht zugängliche Funktionen direkt im Terminal auszugeben.</p>
@@ -526,31 +144,14 @@
 
 
                             <div id="Informations.__init__" class="classattr">
-                                        <input id="Informations.__init__-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr function">
+                                <div class="attr function">
             
         <span class="name">Informations</span><span class="signature pdoc-code multiline">(<span class="param">	<span class="n">verbosity</span><span class="p">:</span> <span class="n"><a href="#Informations.Verbosity">Informations.Verbosity</a></span> <span class="o">=</span> <span class="kc">None</span>,</span><span class="param">	<span class="n">types</span><span class="p">:</span> <span class="n"><a href="#Informations.Types">Informations.Types</a></span> <span class="o">=</span> <span class="kc">None</span>,</span><span class="param">	<span class="n">dateTime</span><span class="o">=</span><span class="kc">None</span></span>)</span>
 
-                <label class="view-source-button" for="Informations.__init__-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#Informations.__init__"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="Informations.__init__-139"><a href="#Informations.__init__-139"><span class="linenos">139</span></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">verbosity</span> <span class="p">:</span> <span class="n">Verbosity</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">types</span> <span class="p">:</span> <span class="n">Types</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">dateTime</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="Informations.__init__-140"><a href="#Informations.__init__-140"><span class="linenos">140</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations.__init__-141"><a href="#Informations.__init__-141"><span class="linenos">141</span></a><span class="sd">        Um die Default-Einstellungen zu ändern, wird empfohlen, eine Instanz von Informations einmalig aufzurufen und die Verbosity und die Types einmalig zu setzen. Diese Wahl gilt dann für die gesamte Anwendung.</span>
-</span><span id="Informations.__init__-142"><a href="#Informations.__init__-142"><span class="linenos">142</span></a><span class="sd">        </span>
-</span><span id="Informations.__init__-143"><a href="#Informations.__init__-143"><span class="linenos">143</span></a><span class="sd">        &lt;li&gt; verbosity (Informations.Verbosity, optional) Standardmäßg ist PrintSimple gesetzt.</span>
-</span><span id="Informations.__init__-144"><a href="#Informations.__init__-144"><span class="linenos">144</span></a><span class="sd">        &lt;li&gt; types (Informations.Types, optional)   Standardmäßig werden alle Typen ausgegeben.</span>
-</span><span id="Informations.__init__-145"><a href="#Informations.__init__-145"><span class="linenos">145</span></a><span class="sd">        &quot;&quot;&quot;</span>
-</span><span id="Informations.__init__-146"><a href="#Informations.__init__-146"><span class="linenos">146</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">verbosity</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="Informations.__init__-147"><a href="#Informations.__init__-147"><span class="linenos">147</span></a>            <span class="bp">self</span><span class="o">.</span><span class="n">__printAnnouncements</span> <span class="o">=</span> <span class="n">verbosity</span>
-</span><span id="Informations.__init__-148"><a href="#Informations.__init__-148"><span class="linenos">148</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">types</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="Informations.__init__-149"><a href="#Informations.__init__-149"><span class="linenos">149</span></a>            <span class="bp">self</span><span class="o">.</span><span class="n">__typesToPrint</span> <span class="o">=</span> <span class="n">types</span>
-</span><span id="Informations.__init__-150"><a href="#Informations.__init__-150"><span class="linenos">150</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">dateTime</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
-</span><span id="Informations.__init__-151"><a href="#Informations.__init__-151"><span class="linenos">151</span></a>            <span class="bp">self</span><span class="o">.</span><span class="n">__printDateTime</span> <span class="o">=</span> <span class="n">dateTime</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Um die Default-Einstellungen zu ändern, wird empfohlen, eine Instanz von Informations einmalig aufzurufen und die Verbosity und die Types einmalig zu setzen. Diese Wahl gilt dann für die gesamte Anwendung.</p>
 
 <p><li> verbosity (<a href="#Informations.Verbosity">Informations.Verbosity</a>, optional) Standardmäßg ist PrintSimple gesetzt.
@@ -561,31 +162,15 @@
                             </div>
                 </section>
                 <section id="Informations.Verbosity">
-                            <input id="Informations.Verbosity-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr class">
+                    <div class="attr class">
             
     <span class="def">class</span>
     <span class="name">Informations.Verbosity</span><wbr>(<span class="base">enum.Enum</span>):
 
-                <label class="view-source-button" for="Informations.Verbosity-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#Informations.Verbosity"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="Informations.Verbosity-16"><a href="#Informations.Verbosity-16"><span class="linenos">16</span></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Verbosity</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
-</span><span id="Informations.Verbosity-17"><a href="#Informations.Verbosity-17"><span class="linenos">17</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations.Verbosity-18"><a href="#Informations.Verbosity-18"><span class="linenos">18</span></a><span class="sd">        Definiert, wie umfangreich Ausgaben gestaltet werden sollen.</span>
-</span><span id="Informations.Verbosity-19"><a href="#Informations.Verbosity-19"><span class="linenos">19</span></a><span class="sd">        &lt;li&gt; NoPrint: Keine Ausgabe</span>
-</span><span id="Informations.Verbosity-20"><a href="#Informations.Verbosity-20"><span class="linenos">20</span></a><span class="sd">        &lt;li&gt; PrintSimple: Ausgabe in einer Zeile</span>
-</span><span id="Informations.Verbosity-21"><a href="#Informations.Verbosity-21"><span class="linenos">21</span></a><span class="sd">        &lt;li&gt; PrintBulky: Ausgabe mit einer auffälligen Hervorhebung.</span>
-</span><span id="Informations.Verbosity-22"><a href="#Informations.Verbosity-22"><span class="linenos">22</span></a>
-</span><span id="Informations.Verbosity-23"><a href="#Informations.Verbosity-23"><span class="linenos">23</span></a><span class="sd">        (Siehe auch `Framework.Informations.Informations`)</span>
-</span><span id="Informations.Verbosity-24"><a href="#Informations.Verbosity-24"><span class="linenos">24</span></a><span class="sd">        &quot;&quot;&quot;</span>        
-</span><span id="Informations.Verbosity-25"><a href="#Informations.Verbosity-25"><span class="linenos">25</span></a>        <span class="n">NoPrint</span>             <span class="o">=</span>  <span class="mi">0</span>
-</span><span id="Informations.Verbosity-26"><a href="#Informations.Verbosity-26"><span class="linenos">26</span></a>        <span class="n">PrintSimple</span>         <span class="o">=</span>  <span class="mi">1</span>
-</span><span id="Informations.Verbosity-27"><a href="#Informations.Verbosity-27"><span class="linenos">27</span></a>        <span class="n">PrintBulky</span>          <span class="o">=</span>  <span class="mi">2</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Definiert, wie umfangreich Ausgaben gestaltet werden sollen.
 <li> NoPrint: Keine Ausgabe
 <li> PrintSimple: Ausgabe in einer Zeile
@@ -633,29 +218,15 @@
                             </div>
                 </section>
                 <section id="Informations.Types">
-                            <input id="Informations.Types-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr class">
+                    <div class="attr class">
             
     <span class="def">class</span>
     <span class="name">Informations.Types</span><wbr>(<span class="base">enum.Flag</span>):
 
-                <label class="view-source-button" for="Informations.Types-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#Informations.Types"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="Informations.Types-29"><a href="#Informations.Types-29"><span class="linenos">29</span></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Types</span><span class="p">(</span><span class="n">Flag</span><span class="p">):</span>
-</span><span id="Informations.Types-30"><a href="#Informations.Types-30"><span class="linenos">30</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations.Types-31"><a href="#Informations.Types-31"><span class="linenos">31</span></a><span class="sd">        Typen, um Informationen zu typisieren. Die Wahl und Interpretation dieser Typen liegt vollständig beim Anwender. Informationen, die dieser Klasse übergeben werden, werden unabhängig vom Typ einheitlich behandelt.</span>
-</span><span id="Informations.Types-32"><a href="#Informations.Types-32"><span class="linenos">32</span></a>
-</span><span id="Informations.Types-33"><a href="#Informations.Types-33"><span class="linenos">33</span></a><span class="sd">        (Siehe auch `Framework.Informations.Informations`)</span>
-</span><span id="Informations.Types-34"><a href="#Informations.Types-34"><span class="linenos">34</span></a><span class="sd">        &quot;&quot;&quot;</span>    
-</span><span id="Informations.Types-35"><a href="#Informations.Types-35"><span class="linenos">35</span></a>        <span class="n">DEBUG</span>   <span class="o">=</span> <span class="mi">1</span>
-</span><span id="Informations.Types-36"><a href="#Informations.Types-36"><span class="linenos">36</span></a>        <span class="n">INFO</span>    <span class="o">=</span> <span class="mi">2</span>
-</span><span id="Informations.Types-37"><a href="#Informations.Types-37"><span class="linenos">37</span></a>        <span class="n">WARN</span>    <span class="o">=</span> <span class="mi">4</span>
-</span><span id="Informations.Types-38"><a href="#Informations.Types-38"><span class="linenos">38</span></a>        <span class="n">ERROR</span>   <span class="o">=</span> <span class="mi">8</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Typen, um Informationen zu typisieren. Die Wahl und Interpretation dieser Typen liegt vollständig beim Anwender. Informationen, die dieser Klasse übergeben werden, werden unabhängig vom Typ einheitlich behandelt.</p>
 
 <p>(Siehe auch <code>Framework.Informations.Informations</code>)</p>
@@ -712,154 +283,44 @@
                             </div>
                 </section>
                 <section id="Informations.Entry">
-                            <input id="Informations.Entry-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr class">
+                    <div class="attr class">
             
     <span class="def">class</span>
     <span class="name">Informations.Entry</span><wbr>(<span class="base">builtins.dict</span>):
 
-                <label class="view-source-button" for="Informations.Entry-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#Informations.Entry"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="Informations.Entry-40"><a href="#Informations.Entry-40"><span class="linenos"> 40</span></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Entry</span><span class="p">(</span><span class="nb">dict</span><span class="p">):</span>
-</span><span id="Informations.Entry-41"><a href="#Informations.Entry-41"><span class="linenos"> 41</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations.Entry-42"><a href="#Informations.Entry-42"><span class="linenos"> 42</span></a><span class="sd">        Die übergebenen Informationen werden in den Entries mit entsprechenden Metainformationen erfasst und gespeichert. Diese sind über `Framework.Informations.entries` abrufbar.</span>
-</span><span id="Informations.Entry-43"><a href="#Informations.Entry-43"><span class="linenos"> 43</span></a><span class="sd">        &quot;&quot;&quot;</span>
-</span><span id="Informations.Entry-44"><a href="#Informations.Entry-44"><span class="linenos"> 44</span></a>        <span class="n">__textColumnWidth</span> <span class="o">=</span> <span class="mi">70</span>
-</span><span id="Informations.Entry-45"><a href="#Informations.Entry-45"><span class="linenos"> 45</span></a>
-</span><span id="Informations.Entry-46"><a href="#Informations.Entry-46"><span class="linenos"> 46</span></a>        <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">type</span><span class="p">,</span> <span class="n">file</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">func</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">line</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="Informations.Entry-47"><a href="#Informations.Entry-47"><span class="linenos"> 47</span></a>            <span class="n">dateTime</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
-</span><span id="Informations.Entry-48"><a href="#Informations.Entry-48"><span class="linenos"> 48</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">type</span>
-</span><span id="Informations.Entry-49"><a href="#Informations.Entry-49"><span class="linenos"> 49</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">file</span>
-</span><span id="Informations.Entry-50"><a href="#Informations.Entry-50"><span class="linenos"> 50</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">func</span>
-</span><span id="Informations.Entry-51"><a href="#Informations.Entry-51"><span class="linenos"> 51</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span>
-</span><span id="Informations.Entry-52"><a href="#Informations.Entry-52"><span class="linenos"> 52</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">text</span>
-</span><span id="Informations.Entry-53"><a href="#Informations.Entry-53"><span class="linenos"> 53</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dateTime</span><span class="o">.</span><span class="n">date</span><span class="p">()</span>
-</span><span id="Informations.Entry-54"><a href="#Informations.Entry-54"><span class="linenos"> 54</span></a>            <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dateTime</span><span class="o">.</span><span class="n">time</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">microsecond</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-</span><span id="Informations.Entry-55"><a href="#Informations.Entry-55"><span class="linenos"> 55</span></a>        
-</span><span id="Informations.Entry-56"><a href="#Informations.Entry-56"><span class="linenos"> 56</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">type</span><span class="p">,</span> <span class="n">oneLength</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-</span><span id="Informations.Entry-57"><a href="#Informations.Entry-57"><span class="linenos"> 57</span></a>            <span class="n">tmp</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">type</span><span class="p">)</span>
-</span><span id="Informations.Entry-58"><a href="#Informations.Entry-58"><span class="linenos"> 58</span></a>            <span class="n">tmp</span> <span class="o">=</span> <span class="s2">&quot;[&quot;</span> <span class="o">+</span> <span class="n">tmp</span><span class="p">[</span><span class="mi">6</span><span class="p">:]</span> <span class="o">+</span> <span class="s2">&quot;]&quot;</span>
-</span><span id="Informations.Entry-59"><a href="#Informations.Entry-59"><span class="linenos"> 59</span></a>            <span class="k">if</span><span class="p">(</span> <span class="n">oneLength</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span> <span class="o">==</span> <span class="mi">6</span><span class="p">):</span>
-</span><span id="Informations.Entry-60"><a href="#Informations.Entry-60"><span class="linenos"> 60</span></a>                <span class="n">tmp</span> <span class="o">=</span> <span class="n">tmp</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>
-</span><span id="Informations.Entry-61"><a href="#Informations.Entry-61"><span class="linenos"> 61</span></a>            <span class="k">return</span> <span class="n">tmp</span>
-</span><span id="Informations.Entry-62"><a href="#Informations.Entry-62"><span class="linenos"> 62</span></a>        
-</span><span id="Informations.Entry-63"><a href="#Informations.Entry-63"><span class="linenos"> 63</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">printSimple</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations.Entry-64"><a href="#Informations.Entry-64"><span class="linenos"> 64</span></a><span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations.Entry-65"><a href="#Informations.Entry-65"><span class="linenos"> 65</span></a><span class="sd">            Gibt einen Entry in einer Zeile im Terminal aus.</span>
-</span><span id="Informations.Entry-66"><a href="#Informations.Entry-66"><span class="linenos"> 66</span></a><span class="sd">            &quot;&quot;&quot;</span>            
-</span><span id="Informations.Entry-67"><a href="#Informations.Entry-67"><span class="linenos"> 67</span></a>            <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;module&gt;&quot;</span><span class="p">):</span>
-</span><span id="Informations.Entry-68"><a href="#Informations.Entry-68"><span class="linenos"> 68</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-</span><span id="Informations.Entry-69"><a href="#Informations.Entry-69"><span class="linenos"> 69</span></a>            <span class="k">else</span><span class="p">:</span>
-</span><span id="Informations.Entry-70"><a href="#Informations.Entry-70"><span class="linenos"> 70</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;-&gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;()&quot;</span>
-</span><span id="Informations.Entry-71"><a href="#Informations.Entry-71"><span class="linenos"> 71</span></a>            
-</span><span id="Informations.Entry-72"><a href="#Informations.Entry-72"><span class="linenos"> 72</span></a>            <span class="n">theString</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">])</span>
-</span><span id="Informations.Entry-73"><a href="#Informations.Entry-73"><span class="linenos"> 73</span></a>            <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot; &gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">func</span> <span class="o">+</span> <span class="s2">&quot; in line &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">]</span>
-</span><span id="Informations.Entry-74"><a href="#Informations.Entry-74"><span class="linenos"> 74</span></a>            <span class="k">if</span><span class="p">(</span><span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations.Entry-75"><a href="#Informations.Entry-75"><span class="linenos"> 75</span></a>                <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot; on &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; at &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">])</span>
-</span><span id="Informations.Entry-76"><a href="#Informations.Entry-76"><span class="linenos"> 76</span></a>            <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n\&quot;</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
-</span><span id="Informations.Entry-77"><a href="#Informations.Entry-77"><span class="linenos"> 77</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">theString</span><span class="p">)</span>
-</span><span id="Informations.Entry-78"><a href="#Informations.Entry-78"><span class="linenos"> 78</span></a>
-</span><span id="Informations.Entry-79"><a href="#Informations.Entry-79"><span class="linenos"> 79</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">printBulky</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations.Entry-80"><a href="#Informations.Entry-80"><span class="linenos"> 80</span></a><span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations.Entry-81"><a href="#Informations.Entry-81"><span class="linenos"> 81</span></a><span class="sd">            Gibt einen Entry in mehreren Zeilen im Terminal aus.</span>
-</span><span id="Informations.Entry-82"><a href="#Informations.Entry-82"><span class="linenos"> 82</span></a><span class="sd">            &quot;&quot;&quot;</span>
-</span><span id="Informations.Entry-83"><a href="#Informations.Entry-83"><span class="linenos"> 83</span></a>            <span class="n">separationLine</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span> <span class="o">*</span> <span class="s2">&quot;-&quot;</span>
-</span><span id="Informations.Entry-84"><a href="#Informations.Entry-84"><span class="linenos"> 84</span></a>
-</span><span id="Informations.Entry-85"><a href="#Informations.Entry-85"><span class="linenos"> 85</span></a>            <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;module&gt;&quot;</span><span class="p">):</span>
-</span><span id="Informations.Entry-86"><a href="#Informations.Entry-86"><span class="linenos"> 86</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-</span><span id="Informations.Entry-87"><a href="#Informations.Entry-87"><span class="linenos"> 87</span></a>            <span class="k">else</span><span class="p">:</span>
-</span><span id="Informations.Entry-88"><a href="#Informations.Entry-88"><span class="linenos"> 88</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;-&gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;()&quot;</span>
-</span><span id="Informations.Entry-89"><a href="#Informations.Entry-89"><span class="linenos"> 89</span></a>            <span class="n">text</span> <span class="o">=</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span>
-</span><span id="Informations.Entry-90"><a href="#Informations.Entry-90"><span class="linenos"> 90</span></a>
-</span><span id="Informations.Entry-91"><a href="#Informations.Entry-91"><span class="linenos"> 91</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">separationLine</span><span class="p">)</span>
-</span><span id="Informations.Entry-92"><a href="#Informations.Entry-92"><span class="linenos"> 92</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">])</span> <span class="p">)</span>
-</span><span id="Informations.Entry-93"><a href="#Informations.Entry-93"><span class="linenos"> 93</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">func</span> <span class="o">+</span> <span class="s2">&quot; in line &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">])</span>
-</span><span id="Informations.Entry-94"><a href="#Informations.Entry-94"><span class="linenos"> 94</span></a>            <span class="k">if</span><span class="p">(</span><span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations.Entry-95"><a href="#Informations.Entry-95"><span class="linenos"> 95</span></a>                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| On &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; at &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]))</span>
-</span><span id="Informations.Entry-96"><a href="#Informations.Entry-96"><span class="linenos"> 96</span></a>            <span class="k">while</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)):</span>
-</span><span id="Informations.Entry-97"><a href="#Informations.Entry-97"><span class="linenos"> 97</span></a>                <span class="n">tmp</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span><span class="p">]</span>
-</span><span id="Informations.Entry-98"><a href="#Informations.Entry-98"><span class="linenos"> 98</span></a>                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="n">tmp</span><span class="p">)</span>
-</span><span id="Informations.Entry-99"><a href="#Informations.Entry-99"><span class="linenos"> 99</span></a>                <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span><span class="p">:]</span>
-</span><span id="Informations.Entry-100"><a href="#Informations.Entry-100"><span class="linenos">100</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">separationLine</span><span class="p">)</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Die übergebenen Informationen werden in den Entries mit entsprechenden Metainformationen erfasst und gespeichert. Diese sind über <code>Framework.Informations.entries</code> abrufbar.</p>
 </div>
 
 
                             <div id="Informations.Entry.printSimple" class="classattr">
-                                        <input id="Informations.Entry.printSimple-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr function">
+                                <div class="attr function">
             
         <span class="def">def</span>
         <span class="name">printSimple</span><span class="signature pdoc-code condensed">(<span class="param"><span class="bp">self</span>, </span><span class="param"><span class="n">printDateTime</span></span><span class="return-annotation">):</span></span>
 
-                <label class="view-source-button" for="Informations.Entry.printSimple-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#Informations.Entry.printSimple"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="Informations.Entry.printSimple-63"><a href="#Informations.Entry.printSimple-63"><span class="linenos">63</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">printSimple</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations.Entry.printSimple-64"><a href="#Informations.Entry.printSimple-64"><span class="linenos">64</span></a><span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations.Entry.printSimple-65"><a href="#Informations.Entry.printSimple-65"><span class="linenos">65</span></a><span class="sd">            Gibt einen Entry in einer Zeile im Terminal aus.</span>
-</span><span id="Informations.Entry.printSimple-66"><a href="#Informations.Entry.printSimple-66"><span class="linenos">66</span></a><span class="sd">            &quot;&quot;&quot;</span>            
-</span><span id="Informations.Entry.printSimple-67"><a href="#Informations.Entry.printSimple-67"><span class="linenos">67</span></a>            <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;module&gt;&quot;</span><span class="p">):</span>
-</span><span id="Informations.Entry.printSimple-68"><a href="#Informations.Entry.printSimple-68"><span class="linenos">68</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-</span><span id="Informations.Entry.printSimple-69"><a href="#Informations.Entry.printSimple-69"><span class="linenos">69</span></a>            <span class="k">else</span><span class="p">:</span>
-</span><span id="Informations.Entry.printSimple-70"><a href="#Informations.Entry.printSimple-70"><span class="linenos">70</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;-&gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;()&quot;</span>
-</span><span id="Informations.Entry.printSimple-71"><a href="#Informations.Entry.printSimple-71"><span class="linenos">71</span></a>            
-</span><span id="Informations.Entry.printSimple-72"><a href="#Informations.Entry.printSimple-72"><span class="linenos">72</span></a>            <span class="n">theString</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">])</span>
-</span><span id="Informations.Entry.printSimple-73"><a href="#Informations.Entry.printSimple-73"><span class="linenos">73</span></a>            <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot; &gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">func</span> <span class="o">+</span> <span class="s2">&quot; in line &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">]</span>
-</span><span id="Informations.Entry.printSimple-74"><a href="#Informations.Entry.printSimple-74"><span class="linenos">74</span></a>            <span class="k">if</span><span class="p">(</span><span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations.Entry.printSimple-75"><a href="#Informations.Entry.printSimple-75"><span class="linenos">75</span></a>                <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot; on &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; at &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">])</span>
-</span><span id="Informations.Entry.printSimple-76"><a href="#Informations.Entry.printSimple-76"><span class="linenos">76</span></a>            <span class="n">theString</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n\&quot;</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
-</span><span id="Informations.Entry.printSimple-77"><a href="#Informations.Entry.printSimple-77"><span class="linenos">77</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">theString</span><span class="p">)</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Gibt einen Entry in einer Zeile im Terminal aus.</p>
 </div>
 
 
                             </div>
                             <div id="Informations.Entry.printBulky" class="classattr">
-                                        <input id="Informations.Entry.printBulky-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr function">
+                                <div class="attr function">
             
         <span class="def">def</span>
         <span class="name">printBulky</span><span class="signature pdoc-code condensed">(<span class="param"><span class="bp">self</span>, </span><span class="param"><span class="n">printDateTime</span></span><span class="return-annotation">):</span></span>
 
-                <label class="view-source-button" for="Informations.Entry.printBulky-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#Informations.Entry.printBulky"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="Informations.Entry.printBulky-79"><a href="#Informations.Entry.printBulky-79"><span class="linenos"> 79</span></a>        <span class="k">def</span><span class="w"> </span><span class="nf">printBulky</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations.Entry.printBulky-80"><a href="#Informations.Entry.printBulky-80"><span class="linenos"> 80</span></a><span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="Informations.Entry.printBulky-81"><a href="#Informations.Entry.printBulky-81"><span class="linenos"> 81</span></a><span class="sd">            Gibt einen Entry in mehreren Zeilen im Terminal aus.</span>
-</span><span id="Informations.Entry.printBulky-82"><a href="#Informations.Entry.printBulky-82"><span class="linenos"> 82</span></a><span class="sd">            &quot;&quot;&quot;</span>
-</span><span id="Informations.Entry.printBulky-83"><a href="#Informations.Entry.printBulky-83"><span class="linenos"> 83</span></a>            <span class="n">separationLine</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span> <span class="o">*</span> <span class="s2">&quot;-&quot;</span>
-</span><span id="Informations.Entry.printBulky-84"><a href="#Informations.Entry.printBulky-84"><span class="linenos"> 84</span></a>
-</span><span id="Informations.Entry.printBulky-85"><a href="#Informations.Entry.printBulky-85"><span class="linenos"> 85</span></a>            <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;module&gt;&quot;</span><span class="p">):</span>
-</span><span id="Informations.Entry.printBulky-86"><a href="#Informations.Entry.printBulky-86"><span class="linenos"> 86</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-</span><span id="Informations.Entry.printBulky-87"><a href="#Informations.Entry.printBulky-87"><span class="linenos"> 87</span></a>            <span class="k">else</span><span class="p">:</span>
-</span><span id="Informations.Entry.printBulky-88"><a href="#Informations.Entry.printBulky-88"><span class="linenos"> 88</span></a>                <span class="n">func</span> <span class="o">=</span> <span class="s2">&quot;-&gt; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;func&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;()&quot;</span>
-</span><span id="Informations.Entry.printBulky-89"><a href="#Informations.Entry.printBulky-89"><span class="linenos"> 89</span></a>            <span class="n">text</span> <span class="o">=</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span>
-</span><span id="Informations.Entry.printBulky-90"><a href="#Informations.Entry.printBulky-90"><span class="linenos"> 90</span></a>
-</span><span id="Informations.Entry.printBulky-91"><a href="#Informations.Entry.printBulky-91"><span class="linenos"> 91</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">separationLine</span><span class="p">)</span>
-</span><span id="Informations.Entry.printBulky-92"><a href="#Informations.Entry.printBulky-92"><span class="linenos"> 92</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">__typeToString</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">])</span> <span class="p">)</span>
-</span><span id="Informations.Entry.printBulky-93"><a href="#Informations.Entry.printBulky-93"><span class="linenos"> 93</span></a>            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">func</span> <span class="o">+</span> <span class="s2">&quot; in line &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">])</span>
-</span><span id="Informations.Entry.printBulky-94"><a href="#Informations.Entry.printBulky-94"><span class="linenos"> 94</span></a>            <span class="k">if</span><span class="p">(</span><span class="n">printDateTime</span><span class="p">):</span>
-</span><span id="Informations.Entry.printBulky-95"><a href="#Informations.Entry.printBulky-95"><span class="linenos"> 95</span></a>                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| On &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; at &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]))</span>
-</span><span id="Informations.Entry.printBulky-96"><a href="#Informations.Entry.printBulky-96"><span class="linenos"> 96</span></a>            <span class="k">while</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)):</span>
-</span><span id="Informations.Entry.printBulky-97"><a href="#Informations.Entry.printBulky-97"><span class="linenos"> 97</span></a>                <span class="n">tmp</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span><span class="p">]</span>
-</span><span id="Informations.Entry.printBulky-98"><a href="#Informations.Entry.printBulky-98"><span class="linenos"> 98</span></a>                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;| &quot;</span> <span class="o">+</span> <span class="n">tmp</span><span class="p">)</span>
-</span><span id="Informations.Entry.printBulky-99"><a href="#Informations.Entry.printBulky-99"><span class="linenos"> 99</span></a>                <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">__textColumnWidth</span><span class="p">:]</span>
-</span><span id="Informations.Entry.printBulky-100"><a href="#Informations.Entry.printBulky-100"><span class="linenos">100</span></a>            <span class="nb">print</span><span class="p">(</span><span class="n">separationLine</span><span class="p">)</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Gibt einen Entry in mehreren Zeilen im Terminal aus.</p>
 </div>
 
@@ -867,156 +328,90 @@
                             </div>
                 </section>
                 <section id="announceInfo">
-                            <input id="announceInfo-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr function">
+                    <div class="attr function">
             
         <span class="def">def</span>
         <span class="name">announceInfo</span><span class="signature pdoc-code condensed">(<span class="param"><span class="n">text</span><span class="p">:</span> <span class="nb">str</span></span><span class="return-annotation">):</span></span>
 
-                <label class="view-source-button" for="announceInfo-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#announceInfo"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="announceInfo-167"><a href="#announceInfo-167"><span class="linenos">167</span></a><span class="k">def</span><span class="w"> </span><span class="nf">announceInfo</span><span class="p">(</span><span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="announceInfo-168"><a href="#announceInfo-168"><span class="linenos">168</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="announceInfo-169"><a href="#announceInfo-169"><span class="linenos">169</span></a><span class="sd">    Globale Funktion, um eine Information vom Typ INFO zu erfassen.</span>
-</span><span id="announceInfo-170"><a href="#announceInfo-170"><span class="linenos">170</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="announceInfo-171"><a href="#announceInfo-171"><span class="linenos">171</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="announceInfo-172"><a href="#announceInfo-172"><span class="linenos">172</span></a>    <span class="n">infos</span><span class="o">.</span><span class="n">_appendInfo</span><span class="p">(</span><span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Globale Funktion, um eine Information vom Typ INFO zu erfassen.</p>
 </div>
 
 
                 </section>
                 <section id="announceWarning">
-                            <input id="announceWarning-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr function">
+                    <div class="attr function">
             
         <span class="def">def</span>
         <span class="name">announceWarning</span><span class="signature pdoc-code condensed">(<span class="param"><span class="n">text</span><span class="p">:</span> <span class="nb">str</span></span><span class="return-annotation">):</span></span>
 
-                <label class="view-source-button" for="announceWarning-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#announceWarning"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="announceWarning-175"><a href="#announceWarning-175"><span class="linenos">175</span></a><span class="k">def</span><span class="w"> </span><span class="nf">announceWarning</span><span class="p">(</span><span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="announceWarning-176"><a href="#announceWarning-176"><span class="linenos">176</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="announceWarning-177"><a href="#announceWarning-177"><span class="linenos">177</span></a><span class="sd">    Globale Funktion, um eine Information vom Typ WARN zu erfassen.</span>
-</span><span id="announceWarning-178"><a href="#announceWarning-178"><span class="linenos">178</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="announceWarning-179"><a href="#announceWarning-179"><span class="linenos">179</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="announceWarning-180"><a href="#announceWarning-180"><span class="linenos">180</span></a>    <span class="n">infos</span><span class="o">.</span><span class="n">_appendInfo</span><span class="p">(</span><span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">WARN</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Globale Funktion, um eine Information vom Typ WARN zu erfassen.</p>
 </div>
 
 
                 </section>
                 <section id="announceError">
-                            <input id="announceError-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr function">
+                    <div class="attr function">
             
         <span class="def">def</span>
         <span class="name">announceError</span><span class="signature pdoc-code condensed">(<span class="param"><span class="n">text</span><span class="p">:</span> <span class="nb">str</span></span><span class="return-annotation">):</span></span>
 
-                <label class="view-source-button" for="announceError-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#announceError"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="announceError-183"><a href="#announceError-183"><span class="linenos">183</span></a><span class="k">def</span><span class="w"> </span><span class="nf">announceError</span><span class="p">(</span><span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="announceError-184"><a href="#announceError-184"><span class="linenos">184</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="announceError-185"><a href="#announceError-185"><span class="linenos">185</span></a><span class="sd">    Globale Funktion, um eine Information vom Typ ERROR zu erfassen.</span>
-</span><span id="announceError-186"><a href="#announceError-186"><span class="linenos">186</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="announceError-187"><a href="#announceError-187"><span class="linenos">187</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="announceError-188"><a href="#announceError-188"><span class="linenos">188</span></a>    <span class="n">infos</span><span class="o">.</span><span class="n">_appendInfo</span><span class="p">(</span><span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">ERROR</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Globale Funktion, um eine Information vom Typ ERROR zu erfassen.</p>
 </div>
 
 
                 </section>
                 <section id="announceDebug">
-                            <input id="announceDebug-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr function">
+                    <div class="attr function">
             
         <span class="def">def</span>
         <span class="name">announceDebug</span><span class="signature pdoc-code condensed">(<span class="param"><span class="n">text</span><span class="p">:</span> <span class="nb">str</span></span><span class="return-annotation">):</span></span>
 
-                <label class="view-source-button" for="announceDebug-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#announceDebug"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="announceDebug-191"><a href="#announceDebug-191"><span class="linenos">191</span></a><span class="k">def</span><span class="w"> </span><span class="nf">announceDebug</span><span class="p">(</span><span class="n">text</span> <span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="announceDebug-192"><a href="#announceDebug-192"><span class="linenos">192</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="announceDebug-193"><a href="#announceDebug-193"><span class="linenos">193</span></a><span class="sd">    Globale Funktion, um eine Information vom Typ DEBUG zu erfassen.</span>
-</span><span id="announceDebug-194"><a href="#announceDebug-194"><span class="linenos">194</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="announceDebug-195"><a href="#announceDebug-195"><span class="linenos">195</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="announceDebug-196"><a href="#announceDebug-196"><span class="linenos">196</span></a>    <span class="n">infos</span><span class="o">.</span><span class="n">_appendInfo</span><span class="p">(</span><span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Globale Funktion, um eine Information vom Typ DEBUG zu erfassen.</p>
 </div>
 
 
                 </section>
                 <section id="printEntries">
-                            <input id="printEntries-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr function">
+                    <div class="attr function">
             
         <span class="def">def</span>
         <span class="name">printEntries</span><span class="signature pdoc-code multiline">(<span class="param">	<span class="n">types</span><span class="p">:</span> <span class="n"><a href="#Informations.Types">Informations.Types</a></span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span><span class="o">|</span><span class="n">INFO</span><span class="o">|</span><span class="n">WARN</span><span class="o">|</span><span class="n">ERROR</span><span class="p">:</span> <span class="mi">15</span><span class="o">&gt;</span></span><span class="return-annotation">):</span></span>
 
-                <label class="view-source-button" for="printEntries-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#printEntries"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="printEntries-199"><a href="#printEntries-199"><span class="linenos">199</span></a><span class="k">def</span><span class="w"> </span><span class="nf">printEntries</span><span class="p">(</span><span class="n">types</span> <span class="p">:</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span> <span class="o">=</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">INFO</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">WARN</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">ERROR</span><span class="p">):</span>
-</span><span id="printEntries-200"><a href="#printEntries-200"><span class="linenos">200</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="printEntries-201"><a href="#printEntries-201"><span class="linenos">201</span></a><span class="sd">    Globale Funktion, um alle Information mit den ausgewählten Typen im Terminal auszugeben.</span>
-</span><span id="printEntries-202"><a href="#printEntries-202"><span class="linenos">202</span></a><span class="sd">    &quot;&quot;&quot;</span>    
-</span><span id="printEntries-203"><a href="#printEntries-203"><span class="linenos">203</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="printEntries-204"><a href="#printEntries-204"><span class="linenos">204</span></a>    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">infos</span><span class="o">.</span><span class="n">_entries</span><span class="p">:</span>
-</span><span id="printEntries-205"><a href="#printEntries-205"><span class="linenos">205</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">types</span><span class="p">):</span>
-</span><span id="printEntries-206"><a href="#printEntries-206"><span class="linenos">206</span></a>            <span class="n">entry</span><span class="o">.</span><span class="n">printSimple</span><span class="p">()</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Globale Funktion, um alle Information mit den ausgewählten Typen im Terminal auszugeben.</p>
 </div>
 
 
                 </section>
                 <section id="entries">
-                            <input id="entries-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
-<div class="attr function">
+                    <div class="attr function">
             
         <span class="def">def</span>
         <span class="name">entries</span><span class="signature pdoc-code multiline">(<span class="param">	<span class="n">types</span><span class="p">:</span> <span class="n"><a href="#Informations.Types">Informations.Types</a></span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span><span class="o">|</span><span class="n">INFO</span><span class="o">|</span><span class="n">WARN</span><span class="o">|</span><span class="n">ERROR</span><span class="p">:</span> <span class="mi">15</span><span class="o">&gt;</span></span><span class="return-annotation">) -> <span class="nb">list</span><span class="p">[</span><span class="n"><a href="#Informations.Entry">Informations.Entry</a></span><span class="p">]</span>:</span></span>
 
-                <label class="view-source-button" for="entries-view-source"><span>View Source</span></label>
-
+        
     </div>
     <a class="headerlink" href="#entries"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="entries-209"><a href="#entries-209"><span class="linenos">209</span></a><span class="k">def</span><span class="w"> </span><span class="nf">entries</span><span class="p">(</span><span class="n">types</span> <span class="p">:</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span> <span class="o">=</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">DEBUG</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">INFO</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">WARN</span> <span class="o">|</span> <span class="n">Informations</span><span class="o">.</span><span class="n">Types</span><span class="o">.</span><span class="n">ERROR</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">Informations</span><span class="o">.</span><span class="n">Entry</span><span class="p">]:</span>
-</span><span id="entries-210"><a href="#entries-210"><span class="linenos">210</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="entries-211"><a href="#entries-211"><span class="linenos">211</span></a><span class="sd">    Globale Funktion, um alle Information mit den ausgewählten Typen zurückzugeben.</span>
-</span><span id="entries-212"><a href="#entries-212"><span class="linenos">212</span></a><span class="sd">    &quot;&quot;&quot;</span> 
-</span><span id="entries-213"><a href="#entries-213"><span class="linenos">213</span></a>    <span class="n">infos</span> <span class="o">=</span> <span class="n">Informations</span><span class="p">()</span>
-</span><span id="entries-214"><a href="#entries-214"><span class="linenos">214</span></a>    <span class="n">output</span> <span class="o">=</span> <span class="p">[]</span>
-</span><span id="entries-215"><a href="#entries-215"><span class="linenos">215</span></a>    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">infos</span><span class="o">.</span><span class="n">_entries</span><span class="p">:</span>
-</span><span id="entries-216"><a href="#entries-216"><span class="linenos">216</span></a>        <span class="k">if</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">types</span><span class="p">):</span>
-</span><span id="entries-217"><a href="#entries-217"><span class="linenos">217</span></a>            <span class="n">output</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
-</span><span id="entries-218"><a href="#entries-218"><span class="linenos">218</span></a>    <span class="k">return</span> <span class="n">output</span>
-</span></pre></div>
-
-
+    
             <div class="docstring"><p>Globale Funktion, um alle Information mit den ausgewählten Typen zurückzugeben.</p>
 </div>
 
