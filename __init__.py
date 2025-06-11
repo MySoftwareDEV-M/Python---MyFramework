@@ -1,13 +1,16 @@
-"""
-Durch das Framework werden Module bereitgestellt, die in diversen Projekten hilfreich sein können, indem sie allgemeingültige Klassen und wiederkehrende Funktionen bereitstellen.
+r'''
+MyFamework provides modules that can be helpful in various projects by providing generally valid modules and recurring functions.
 
-<h5>Framework.Informations.Informations</h5>
-Die Idee dieser Klasse folgt zwei Szenarien. Hinweise, die während der Ausführung einer Anwendung erfasst werden sollen, werden
-<li> ... in einem Objekt zentral gespeichert und für anschließende Aufrufe bereitgestellt. Diese Informationen können entsprechend weiterführender Anwendungsfälle angezeigt, gespeichert oder analysiert werden.
-<li> ... über einheitliche und leicht zugängliche Funktionen direkt im Terminal ausgegeben.
+# [Informations](./MyFramework/Informations.html)
+The idea of this module follows two scenarios. Notes like infos, warnings, errors and debugging infos that are to be recorded during the execution of an application are ...
+- ... are stored centrally in an object and made available for subsequent calls. This information can be displayed, stored or analyzed according to further use cases.
+- ... output directly in the terminal using standardized and easily accessible functions.
 
-Die Informationen werden typisiert (siehe `Framework.Informations.Informations.Types`). Es werden automatisch Metainformationen wie Dateiname, Funktion und Zeilennummer erfasst.
+Meta information such as file name, function and line number is automatically recorded.
 
-<h5>Framework.Data</h5>
-Funktionen in diesem Modul dienen dem Anzeigen, Analysieren und Manipulieren von Datenstrukturen.
-"""
+And yes, you can also use break points during development. Output from MyFramework often gives a bigger picture and can also be used after development.
+
+# [Data](./MyFramework/Data.html)
+Functions in this module are used to display, analyze and manipulate data structures.
+It can be understood as a collection of recurring manipulations and analyzations that help me while diving into a new topic or typing the same functions over and over again.
+'''
