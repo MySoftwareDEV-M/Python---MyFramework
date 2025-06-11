@@ -1,0 +1,22 @@
+{
+   "key01": "value1",
+   "key02": 123,
+   "key03": 1.23,
+   "key04": "(3+7j)",
+   "key05": [
+      1,
+      2
+   ],
+   "key06": "('TUPLE A', 'TUPLE B')",
+   "key07": {
+      "keyA": "DICT valueA",
+      "keyB": "DICT valueB"
+   },
+   "key08": "{'SET A', 'SET C', 'SET B'}",
+   "key09": "frozenset({1, 3, (3, 5)})",
+   "key10": true,
+   "key11": false,
+   "key12": "b'Python'",
+   "key13": "bytearray(b'\\x02\\x03\\x05\\x07')",
+   "key14": null
+}
